@@ -1,0 +1,2892 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_54c12fe8452541ee81d86f43113edc8c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_54c12fe8452541ee81d86f43113edc8c" ></div>
+        
+</body>
+<script>    
+    
+            var map_54c12fe8452541ee81d86f43113edc8c = L.map(
+                "map_54c12fe8452541ee81d86f43113edc8c",
+                {
+                    center: [59.5, 31.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fd05ca9e0f824efcb0551c6f386796be = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var marker_b9dee56234064ccbb65b6007ec325850 = L.marker(
+                [60.03419, 30.32274],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_b192a80248064ad3a9a0a8a212b43aa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9dee56234064ccbb65b6007ec325850.setIcon(icon_b192a80248064ad3a9a0a8a212b43aa5);
+        
+    
+        var popup_42874bfa21f942b986f1c1e2635a8da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_645f741bcaaf4feca6edef22f2658844 = $(`<div id="html_645f741bcaaf4feca6edef22f2658844" style="width: 100.0%; height: 100.0%;">улица Сикейроса 1, Санкт-Петербург, Россия, 194354</div>`)[0];
+            popup_42874bfa21f942b986f1c1e2635a8da0.setContent(html_645f741bcaaf4feca6edef22f2658844);
+        
+
+        marker_b9dee56234064ccbb65b6007ec325850.bindPopup(popup_42874bfa21f942b986f1c1e2635a8da0)
+        ;
+
+        
+    
+    
+            var marker_0793ded9e1cf4af2807150d72cb6e8cd = L.marker(
+                [60.034268, 30.322974],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_851a40e8157c4e69bdc286ff22e6cf19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0793ded9e1cf4af2807150d72cb6e8cd.setIcon(icon_851a40e8157c4e69bdc286ff22e6cf19);
+        
+    
+        var popup_e771f4998e054effb951d926a189bd25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52af83465ab640cf9216545e1dcd8b41 = $(`<div id="html_52af83465ab640cf9216545e1dcd8b41" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Выборгский р-н, ул. Сикейроса, д. 1</div>`)[0];
+            popup_e771f4998e054effb951d926a189bd25.setContent(html_52af83465ab640cf9216545e1dcd8b41);
+        
+
+        marker_0793ded9e1cf4af2807150d72cb6e8cd.bindPopup(popup_e771f4998e054effb951d926a189bd25)
+        ;
+
+        
+    
+    
+            var poly_line_d9ff9297001442baa074912fe11c91c4 = L.polyline(
+                [[60.034268, 30.322974], [60.03419, 30.32274]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_40078e46cafe4a0ab9f700a76236c25b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab5fcc02e6a547cc87b95fbf5f374702 = $(`<div id="html_ab5fcc02e6a547cc87b95fbf5f374702" style="width: 100.0%; height: 100.0%;">16</div>`)[0];
+            popup_40078e46cafe4a0ab9f700a76236c25b.setContent(html_ab5fcc02e6a547cc87b95fbf5f374702);
+        
+
+        poly_line_d9ff9297001442baa074912fe11c91c4.bindPopup(popup_40078e46cafe4a0ab9f700a76236c25b)
+        ;
+
+        
+    
+    
+            var marker_b7ddd94bc1d042a0ae4d61fc4baf0ec2 = L.marker(
+                [60.05015, 30.34524],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_eed3114708dd4650b09c9191bee4ea07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7ddd94bc1d042a0ae4d61fc4baf0ec2.setIcon(icon_eed3114708dd4650b09c9191bee4ea07);
+        
+    
+        var popup_a31e96bd84ae4a73b0120e7c8211415c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84cc1ff3c93a4f8394da2f8e5f4827b9 = $(`<div id="html_84cc1ff3c93a4f8394da2f8e5f4827b9" style="width: 100.0%; height: 100.0%;">проспект Просвещения 33 корп 1, Санкт-Петербург, Россия, 194295</div>`)[0];
+            popup_a31e96bd84ae4a73b0120e7c8211415c.setContent(html_84cc1ff3c93a4f8394da2f8e5f4827b9);
+        
+
+        marker_b7ddd94bc1d042a0ae4d61fc4baf0ec2.bindPopup(popup_a31e96bd84ae4a73b0120e7c8211415c)
+        ;
+
+        
+    
+    
+            var marker_62d91e3ec01f4b39b6293508bd7c2194 = L.marker(
+                [60.050048, 30.345773],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_062f82eea6e54307941c854c7bf3ccea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62d91e3ec01f4b39b6293508bd7c2194.setIcon(icon_062f82eea6e54307941c854c7bf3ccea);
+        
+    
+        var popup_6834f4a6c65046838af14bf3b3dc712a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eeb5b05f5d44cc29aff8cf1e91f65f2 = $(`<div id="html_0eeb5b05f5d44cc29aff8cf1e91f65f2" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Выборгский р-н, пр. Просвещения, д. 33, к.1</div>`)[0];
+            popup_6834f4a6c65046838af14bf3b3dc712a.setContent(html_0eeb5b05f5d44cc29aff8cf1e91f65f2);
+        
+
+        marker_62d91e3ec01f4b39b6293508bd7c2194.bindPopup(popup_6834f4a6c65046838af14bf3b3dc712a)
+        ;
+
+        
+    
+    
+            var poly_line_05b1ea0ec816453c92da1c434d1990bc = L.polyline(
+                [[60.050048, 30.345773], [60.05015, 30.34524]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_c36e8d8809fb4e7d8f76ee2752558ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9210614c317c4222b0829dc97f019485 = $(`<div id="html_9210614c317c4222b0829dc97f019485" style="width: 100.0%; height: 100.0%;">32</div>`)[0];
+            popup_c36e8d8809fb4e7d8f76ee2752558ea7.setContent(html_9210614c317c4222b0829dc97f019485);
+        
+
+        poly_line_05b1ea0ec816453c92da1c434d1990bc.bindPopup(popup_c36e8d8809fb4e7d8f76ee2752558ea7)
+        ;
+
+        
+    
+    
+            var marker_eebca087e67b483a9a883c1867763472 = L.marker(
+                [60.01463, 30.3933],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_678fb68bc35d46e7842ac0bb3a68d91d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eebca087e67b483a9a883c1867763472.setIcon(icon_678fb68bc35d46e7842ac0bb3a68d91d);
+        
+    
+        var popup_be77d4c6cca54660b5dc7ebe367d53da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_330c1a850bcc4ce299e53a0b21eef71d = $(`<div id="html_330c1a850bcc4ce299e53a0b21eef71d" style="width: 100.0%; height: 100.0%;">проспект Науки 12, Санкт-Петербург, Россия, 195257</div>`)[0];
+            popup_be77d4c6cca54660b5dc7ebe367d53da.setContent(html_330c1a850bcc4ce299e53a0b21eef71d);
+        
+
+        marker_eebca087e67b483a9a883c1867763472.bindPopup(popup_be77d4c6cca54660b5dc7ebe367d53da)
+        ;
+
+        
+    
+    
+            var marker_b3058b839d5041a898aefdaeaf7a59a1 = L.marker(
+                [60.014769, 30.392593],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5687346961044bdf9f66c16c23db5fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3058b839d5041a898aefdaeaf7a59a1.setIcon(icon_5687346961044bdf9f66c16c23db5fca);
+        
+    
+        var popup_8f29ffd049804496b1d024744efb0430 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6911b4c2a5b649acb58c84e1c65aa0c1 = $(`<div id="html_6911b4c2a5b649acb58c84e1c65aa0c1" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Калининский р-н, пр. Науки, д. 12</div>`)[0];
+            popup_8f29ffd049804496b1d024744efb0430.setContent(html_6911b4c2a5b649acb58c84e1c65aa0c1);
+        
+
+        marker_b3058b839d5041a898aefdaeaf7a59a1.bindPopup(popup_8f29ffd049804496b1d024744efb0430)
+        ;
+
+        
+    
+    
+            var poly_line_a39df144dcf44901a06ea78980a384d5 = L.polyline(
+                [[60.014769, 30.392593], [60.01463, 30.3933]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_183d01f3bb9f46ca9671f733c351d6a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5f4b465be4c4ceea3557d27ba91f9a2 = $(`<div id="html_c5f4b465be4c4ceea3557d27ba91f9a2" style="width: 100.0%; height: 100.0%;">42</div>`)[0];
+            popup_183d01f3bb9f46ca9671f733c351d6a1.setContent(html_c5f4b465be4c4ceea3557d27ba91f9a2);
+        
+
+        poly_line_a39df144dcf44901a06ea78980a384d5.bindPopup(popup_183d01f3bb9f46ca9671f733c351d6a1)
+        ;
+
+        
+    
+    
+            var marker_87d6fc00b08c45d99b6997c88067ef74 = L.marker(
+                [59.84303, 30.26055],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_b2bddce29e5644c5a97a6386ae6f6a0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87d6fc00b08c45d99b6997c88067ef74.setIcon(icon_b2bddce29e5644c5a97a6386ae6f6a0e);
+        
+    
+        var popup_6cc783942ad546578e2bc68983fcddf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe48eeb537b4ecdbea9d5f02f5b6411 = $(`<div id="html_bfe48eeb537b4ecdbea9d5f02f5b6411" style="width: 100.0%; height: 100.0%;">бульвар Новаторов 67 корп 2, Санкт-Петербург, Россия, 198215</div>`)[0];
+            popup_6cc783942ad546578e2bc68983fcddf8.setContent(html_bfe48eeb537b4ecdbea9d5f02f5b6411);
+        
+
+        marker_87d6fc00b08c45d99b6997c88067ef74.bindPopup(popup_6cc783942ad546578e2bc68983fcddf8)
+        ;
+
+        
+    
+    
+            var marker_4e74833187714e3dacdf7114a644df89 = L.marker(
+                [59.842956, 30.2609],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_2a539ce08f954e50a21045be6172d223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e74833187714e3dacdf7114a644df89.setIcon(icon_2a539ce08f954e50a21045be6172d223);
+        
+    
+        var popup_1fe1b305f8134c00ac548d27e4914d50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc72ea598c4e46a5adb2aae1842effe3 = $(`<div id="html_fc72ea598c4e46a5adb2aae1842effe3" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Кировский р-н, б-р. Новаторов, д. 67, к.2</div>`)[0];
+            popup_1fe1b305f8134c00ac548d27e4914d50.setContent(html_fc72ea598c4e46a5adb2aae1842effe3);
+        
+
+        marker_4e74833187714e3dacdf7114a644df89.bindPopup(popup_1fe1b305f8134c00ac548d27e4914d50)
+        ;
+
+        
+    
+    
+            var poly_line_f7e6bfea612b4d34a317133c6584cb4a = L.polyline(
+                [[59.842956, 30.2609], [59.84303, 30.26055]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_c3a58bea91fb4503b7369a9b5ac4e89d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1332466fea6c4e01b9c29ee8f9a5e5d8 = $(`<div id="html_1332466fea6c4e01b9c29ee8f9a5e5d8" style="width: 100.0%; height: 100.0%;">21</div>`)[0];
+            popup_c3a58bea91fb4503b7369a9b5ac4e89d.setContent(html_1332466fea6c4e01b9c29ee8f9a5e5d8);
+        
+
+        poly_line_f7e6bfea612b4d34a317133c6584cb4a.bindPopup(popup_c3a58bea91fb4503b7369a9b5ac4e89d)
+        ;
+
+        
+    
+    
+            var marker_ecfe21890c9645e3a54324ffe3e39200 = L.marker(
+                [59.92311, 30.4817],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5fbf0003cb184bb78c97ba6fca0c6841 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ecfe21890c9645e3a54324ffe3e39200.setIcon(icon_5fbf0003cb184bb78c97ba6fca0c6841);
+        
+    
+        var popup_2f8c8d267195436eac23c8ef0e82543d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55841ff53e60476e9bc048b262e3e6af = $(`<div id="html_55841ff53e60476e9bc048b262e3e6af" style="width: 100.0%; height: 100.0%;">улица Коллонтай 28, Санкт-Петербург, Россия, 193312</div>`)[0];
+            popup_2f8c8d267195436eac23c8ef0e82543d.setContent(html_55841ff53e60476e9bc048b262e3e6af);
+        
+
+        marker_ecfe21890c9645e3a54324ffe3e39200.bindPopup(popup_2f8c8d267195436eac23c8ef0e82543d)
+        ;
+
+        
+    
+    
+            var marker_83c5572f769844a6ae17f8b704765456 = L.marker(
+                [59.922905, 30.48132],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_66b4452d63cf4f29b7369c3b203b1b08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83c5572f769844a6ae17f8b704765456.setIcon(icon_66b4452d63cf4f29b7369c3b203b1b08);
+        
+    
+        var popup_9a943c2ed2e049fcb42181bccdb4fa89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e45a51d4ed34e32a5af0eba98d71722 = $(`<div id="html_5e45a51d4ed34e32a5af0eba98d71722" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Невский р-н, ул. Коллонтай, д. 28</div>`)[0];
+            popup_9a943c2ed2e049fcb42181bccdb4fa89.setContent(html_5e45a51d4ed34e32a5af0eba98d71722);
+        
+
+        marker_83c5572f769844a6ae17f8b704765456.bindPopup(popup_9a943c2ed2e049fcb42181bccdb4fa89)
+        ;
+
+        
+    
+    
+            var poly_line_615429f76bcf471b9fc4ace6b7073258 = L.polyline(
+                [[59.922905, 30.48132], [59.92311, 30.4817]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_f0b3d4434635449f888b58c2fa65466b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4851000715994cf6a663e38a202c8fdd = $(`<div id="html_4851000715994cf6a663e38a202c8fdd" style="width: 100.0%; height: 100.0%;">31</div>`)[0];
+            popup_f0b3d4434635449f888b58c2fa65466b.setContent(html_4851000715994cf6a663e38a202c8fdd);
+        
+
+        poly_line_615429f76bcf471b9fc4ace6b7073258.bindPopup(popup_f0b3d4434635449f888b58c2fa65466b)
+        ;
+
+        
+    
+    
+            var marker_816152697f754867acdb97efb7928704 = L.marker(
+                [59.90559, 30.47992],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_445f516accc7437d86b0c813bc2f7bf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_816152697f754867acdb97efb7928704.setIcon(icon_445f516accc7437d86b0c813bc2f7bf1);
+        
+    
+        var popup_f09d73313ee24e8f8b60a350da7f0b36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8470916a13c14b42b8ba94dd40eb785b = $(`<div id="html_8470916a13c14b42b8ba94dd40eb785b" style="width: 100.0%; height: 100.0%;">улица Дыбенко 27 корп 1, Санкт-Петербург, Россия, 193232</div>`)[0];
+            popup_f09d73313ee24e8f8b60a350da7f0b36.setContent(html_8470916a13c14b42b8ba94dd40eb785b);
+        
+
+        marker_816152697f754867acdb97efb7928704.bindPopup(popup_f09d73313ee24e8f8b60a350da7f0b36)
+        ;
+
+        
+    
+    
+            var marker_997139f282cf4970afa9316f6a2665ff = L.marker(
+                [59.905592, 30.479918],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_ed72ba1cf71b477299f113e1e5b85978 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_997139f282cf4970afa9316f6a2665ff.setIcon(icon_ed72ba1cf71b477299f113e1e5b85978);
+        
+    
+        var popup_e593b5818aba42f6a191d129a03a1fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0be7e85044c4426fbeb1b40719ab3427 = $(`<div id="html_0be7e85044c4426fbeb1b40719ab3427" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Невский р-н, ул. Дыбенко, д. 27, к.1</div>`)[0];
+            popup_e593b5818aba42f6a191d129a03a1fa6.setContent(html_0be7e85044c4426fbeb1b40719ab3427);
+        
+
+        marker_997139f282cf4970afa9316f6a2665ff.bindPopup(popup_e593b5818aba42f6a191d129a03a1fa6)
+        ;
+
+        
+    
+    
+            var poly_line_b91bb4564ba645c3845ccb88f28dd385 = L.polyline(
+                [[59.905592, 30.479918], [59.90559, 30.47992]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_5721a46b71fc414289e316c15c6a172b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_340a63a0acfd4559a56f50b707809f50 = $(`<div id="html_340a63a0acfd4559a56f50b707809f50" style="width: 100.0%; height: 100.0%;">0</div>`)[0];
+            popup_5721a46b71fc414289e316c15c6a172b.setContent(html_340a63a0acfd4559a56f50b707809f50);
+        
+
+        poly_line_b91bb4564ba645c3845ccb88f28dd385.bindPopup(popup_5721a46b71fc414289e316c15c6a172b)
+        ;
+
+        
+    
+    
+            var marker_37b125e8de154df0b4edba4f0d91eddf = L.marker(
+                [59.94573, 30.48359],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_d84200003eeb4512b26556f38e188ef9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37b125e8de154df0b4edba4f0d91eddf.setIcon(icon_d84200003eeb4512b26556f38e188ef9);
+        
+    
+        var popup_4912534d3c77418796ff310a4c0113b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2bd3292c38247329d0f4c2492fcb9ab = $(`<div id="html_f2bd3292c38247329d0f4c2492fcb9ab" style="width: 100.0%; height: 100.0%;">улица Осипенко-МО Пороховые 2, Санкт-Петербург, Россия, 195426</div>`)[0];
+            popup_4912534d3c77418796ff310a4c0113b9.setContent(html_f2bd3292c38247329d0f4c2492fcb9ab);
+        
+
+        marker_37b125e8de154df0b4edba4f0d91eddf.bindPopup(popup_4912534d3c77418796ff310a4c0113b9)
+        ;
+
+        
+    
+    
+            var marker_84aaa46a39aa4eaeba70668dc1d83054 = L.marker(
+                [59.945644, 30.483619],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_ffb52b5837f348d891298e70706213a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84aaa46a39aa4eaeba70668dc1d83054.setIcon(icon_ffb52b5837f348d891298e70706213a8);
+        
+    
+        var popup_6130cfff286a44ca8ce1f9c04577a30f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd916a059c5c41839737e4a423173c44 = $(`<div id="html_fd916a059c5c41839737e4a423173c44" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Красногвардейский р-н, ул. Осипенко, д. 2</div>`)[0];
+            popup_6130cfff286a44ca8ce1f9c04577a30f.setContent(html_fd916a059c5c41839737e4a423173c44);
+        
+
+        marker_84aaa46a39aa4eaeba70668dc1d83054.bindPopup(popup_6130cfff286a44ca8ce1f9c04577a30f)
+        ;
+
+        
+    
+    
+            var poly_line_b3aa5e61e5eb42d78d6c5fcc7bae5a75 = L.polyline(
+                [[59.945644, 30.483619], [59.94573, 30.48359]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_a693ee9c15bf49d7a72126648c485e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9467709b64a14e77a4d220bd44630e8d = $(`<div id="html_9467709b64a14e77a4d220bd44630e8d" style="width: 100.0%; height: 100.0%;">10</div>`)[0];
+            popup_a693ee9c15bf49d7a72126648c485e7f.setContent(html_9467709b64a14e77a4d220bd44630e8d);
+        
+
+        poly_line_b3aa5e61e5eb42d78d6c5fcc7bae5a75.bindPopup(popup_a693ee9c15bf49d7a72126648c485e7f)
+        ;
+
+        
+    
+    
+            var marker_209631504ed045259ed7b0ffe7dd4cb0 = L.marker(
+                [59.87242, 30.32103],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_e5f59b053a534cbabe393f7d8fb0ceac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_209631504ed045259ed7b0ffe7dd4cb0.setIcon(icon_e5f59b053a534cbabe393f7d8fb0ceac);
+        
+    
+        var popup_fd1ba642cba2440e8a522954be4be076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ea00737bc72414e897275bafe50f98f = $(`<div id="html_4ea00737bc72414e897275bafe50f98f" style="width: 100.0%; height: 100.0%;">Московский проспект 186, Санкт-Петербург, Россия, 196105</div>`)[0];
+            popup_fd1ba642cba2440e8a522954be4be076.setContent(html_4ea00737bc72414e897275bafe50f98f);
+        
+
+        marker_209631504ed045259ed7b0ffe7dd4cb0.bindPopup(popup_fd1ba642cba2440e8a522954be4be076)
+        ;
+
+        
+    
+    
+            var marker_5044dfab3ca3437da2c68d3ca3081a48 = L.marker(
+                [59.872633, 30.321384],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5d37f6e614dd436d878e6a81383cb767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5044dfab3ca3437da2c68d3ca3081a48.setIcon(icon_5d37f6e614dd436d878e6a81383cb767);
+        
+    
+        var popup_138b7e3bc70e4bdf8913af5f11bbd2d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_305a636f2f2b43128c6c910494718975 = $(`<div id="html_305a636f2f2b43128c6c910494718975" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Московский р-н, Московский пр., д. 186</div>`)[0];
+            popup_138b7e3bc70e4bdf8913af5f11bbd2d4.setContent(html_305a636f2f2b43128c6c910494718975);
+        
+
+        marker_5044dfab3ca3437da2c68d3ca3081a48.bindPopup(popup_138b7e3bc70e4bdf8913af5f11bbd2d4)
+        ;
+
+        
+    
+    
+            var poly_line_5b7cb0798e554ec8be7be84b6261ffa8 = L.polyline(
+                [[59.872633, 30.321384], [59.87242, 30.32103]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_dc290e27ba784ed68392d3416111b3e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fe608a3ab7248e89aaa805bbc0bcbc6 = $(`<div id="html_4fe608a3ab7248e89aaa805bbc0bcbc6" style="width: 100.0%; height: 100.0%;">31</div>`)[0];
+            popup_dc290e27ba784ed68392d3416111b3e3.setContent(html_4fe608a3ab7248e89aaa805bbc0bcbc6);
+        
+
+        poly_line_5b7cb0798e554ec8be7be84b6261ffa8.bindPopup(popup_dc290e27ba784ed68392d3416111b3e3)
+        ;
+
+        
+    
+    
+            var marker_3548995d34b1410298fee65390f38c66 = L.marker(
+                [59.82973, 30.38572],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_eda790dea6f14d96850e844566349f49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3548995d34b1410298fee65390f38c66.setIcon(icon_eda790dea6f14d96850e844566349f49);
+        
+    
+        var popup_170c0473336f4952bc57637edcbece35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bbe62cb800b45e4be35d558f84595fa = $(`<div id="html_9bbe62cb800b45e4be35d558f84595fa" style="width: 100.0%; height: 100.0%;">Малая Балканская улица 26, Санкт-Петербург, Россия, 192283</div>`)[0];
+            popup_170c0473336f4952bc57637edcbece35.setContent(html_9bbe62cb800b45e4be35d558f84595fa);
+        
+
+        marker_3548995d34b1410298fee65390f38c66.bindPopup(popup_170c0473336f4952bc57637edcbece35)
+        ;
+
+        
+    
+    
+            var marker_721c55bd9507409fa57cdf158d7442fb = L.marker(
+                [59.829283, 30.385982],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_b2d30434cecb408ebadbb84e7bca9766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_721c55bd9507409fa57cdf158d7442fb.setIcon(icon_b2d30434cecb408ebadbb84e7bca9766);
+        
+    
+        var popup_e934d2592d204a49afedb8b79eae0877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41ca123790b548ae937143001ccf6485 = $(`<div id="html_41ca123790b548ae937143001ccf6485" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Фрунзенский р-н, ул. Малая Балканская, д. 26</div>`)[0];
+            popup_e934d2592d204a49afedb8b79eae0877.setContent(html_41ca123790b548ae937143001ccf6485);
+        
+
+        marker_721c55bd9507409fa57cdf158d7442fb.bindPopup(popup_e934d2592d204a49afedb8b79eae0877)
+        ;
+
+        
+    
+    
+            var poly_line_bd1fb247c0474f46a4ff858755ea5de6 = L.polyline(
+                [[59.829283, 30.385982], [59.82973, 30.38572]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_8cd911537a604f4185257fddf4203f49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_061fa0292c024fb184a2687338037571 = $(`<div id="html_061fa0292c024fb184a2687338037571" style="width: 100.0%; height: 100.0%;">52</div>`)[0];
+            popup_8cd911537a604f4185257fddf4203f49.setContent(html_061fa0292c024fb184a2687338037571);
+        
+
+        poly_line_bd1fb247c0474f46a4ff858755ea5de6.bindPopup(popup_8cd911537a604f4185257fddf4203f49)
+        ;
+
+        
+    
+    
+            var marker_3b6f4719a3e342ed9d81300f1ebbc2eb = L.marker(
+                [59.83337, 30.35384],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_6258d25847e9417bad925291e3ca5b2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b6f4719a3e342ed9d81300f1ebbc2eb.setIcon(icon_6258d25847e9417bad925291e3ca5b2a);
+        
+    
+        var popup_84f5e6062b3a47b79e3003ac3cb4d006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9ca639986544b678d76780c7e0a134d = $(`<div id="html_a9ca639986544b678d76780c7e0a134d" style="width: 100.0%; height: 100.0%;">Звёздная улица 5 корп 1, Санкт-Петербург, Россия, 196158</div>`)[0];
+            popup_84f5e6062b3a47b79e3003ac3cb4d006.setContent(html_a9ca639986544b678d76780c7e0a134d);
+        
+
+        marker_3b6f4719a3e342ed9d81300f1ebbc2eb.bindPopup(popup_84f5e6062b3a47b79e3003ac3cb4d006)
+        ;
+
+        
+    
+    
+            var marker_11ea0b18eebe4e16a4f066e4afec0b55 = L.marker(
+                [59.833733, 30.353328],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_3dd2ec4f3b2c4d05984b3a3b478fbd2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_11ea0b18eebe4e16a4f066e4afec0b55.setIcon(icon_3dd2ec4f3b2c4d05984b3a3b478fbd2d);
+        
+    
+        var popup_0449b539f1a641d38e96fb6681891d06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2467f953ffbe409186a9740a7db36445 = $(`<div id="html_2467f953ffbe409186a9740a7db36445" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Московский р-н, ул. Звездная, д. 5, к. 1</div>`)[0];
+            popup_0449b539f1a641d38e96fb6681891d06.setContent(html_2467f953ffbe409186a9740a7db36445);
+        
+
+        marker_11ea0b18eebe4e16a4f066e4afec0b55.bindPopup(popup_0449b539f1a641d38e96fb6681891d06)
+        ;
+
+        
+    
+    
+            var poly_line_bcedb53d905a43d382b3b45520d18b7d = L.polyline(
+                [[59.833733, 30.353328], [59.83337, 30.35384]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_a8a53be9b63c4184ae159e0454ec5438 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1032bd4400b445edab18f46eea984ca4 = $(`<div id="html_1032bd4400b445edab18f46eea984ca4" style="width: 100.0%; height: 100.0%;">50</div>`)[0];
+            popup_a8a53be9b63c4184ae159e0454ec5438.setContent(html_1032bd4400b445edab18f46eea984ca4);
+        
+
+        poly_line_bcedb53d905a43d382b3b45520d18b7d.bindPopup(popup_a8a53be9b63c4184ae159e0454ec5438)
+        ;
+
+        
+    
+    
+            var marker_eec3188a782643ecbd3415cd40c9ae2b = L.marker(
+                [59.96576, 30.31147],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_b86087f3372d4efa834c10970529ab53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eec3188a782643ecbd3415cd40c9ae2b.setIcon(icon_b86087f3372d4efa834c10970529ab53);
+        
+    
+        var popup_1098ac2a589949eca1320a0465f248c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f9a55fdf42e43348af7af5a34b5e9a6 = $(`<div id="html_4f9a55fdf42e43348af7af5a34b5e9a6" style="width: 100.0%; height: 100.0%;">Каменноостровский проспект 38/96, Санкт-Петербург, Россия, 197136</div>`)[0];
+            popup_1098ac2a589949eca1320a0465f248c1.setContent(html_4f9a55fdf42e43348af7af5a34b5e9a6);
+        
+
+        marker_eec3188a782643ecbd3415cd40c9ae2b.bindPopup(popup_1098ac2a589949eca1320a0465f248c1)
+        ;
+
+        
+    
+    
+            var marker_e1120a57425d47499236fe50ec459815 = L.marker(
+                [59.96593, 30.311107],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5c9379e1e2b5458998858599e50dcc25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1120a57425d47499236fe50ec459815.setIcon(icon_5c9379e1e2b5458998858599e50dcc25);
+        
+    
+        var popup_8b9327fd15634692bfc55a16867e3797 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7d0584f649546d0aff92b290ef3d966 = $(`<div id="html_e7d0584f649546d0aff92b290ef3d966" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Петроградский р-н, Каменноостровский пр., д. 38/96</div>`)[0];
+            popup_8b9327fd15634692bfc55a16867e3797.setContent(html_e7d0584f649546d0aff92b290ef3d966);
+        
+
+        marker_e1120a57425d47499236fe50ec459815.bindPopup(popup_8b9327fd15634692bfc55a16867e3797)
+        ;
+
+        
+    
+    
+            var poly_line_7b13c4722ca04c4bacd0f0008f27b48d = L.polyline(
+                [[59.96593, 30.311107], [59.96576, 30.31147]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_a1f6017f524e44bca17989da4e443004 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4269bc9f186c4f64b29556ec01f2b45f = $(`<div id="html_4269bc9f186c4f64b29556ec01f2b45f" style="width: 100.0%; height: 100.0%;">28</div>`)[0];
+            popup_a1f6017f524e44bca17989da4e443004.setContent(html_4269bc9f186c4f64b29556ec01f2b45f);
+        
+
+        poly_line_7b13c4722ca04c4bacd0f0008f27b48d.bindPopup(popup_a1f6017f524e44bca17989da4e443004)
+        ;
+
+        
+    
+    
+            var marker_b97d095a455a45698dfb1e375eda957a = L.marker(
+                [59.99754, 30.3062],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_fe517f04b90847e799b86f7adea0a741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b97d095a455a45698dfb1e375eda957a.setIcon(icon_fe517f04b90847e799b86f7adea0a741);
+        
+    
+        var popup_fdd237e5a4e048258ddebc774c52c339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da77ccc74163400b89039c947beb3779 = $(`<div id="html_da77ccc74163400b89039c947beb3779" style="width: 100.0%; height: 100.0%;">Коломяжский проспект 14, Санкт-Петербург, Россия, 197343</div>`)[0];
+            popup_fdd237e5a4e048258ddebc774c52c339.setContent(html_da77ccc74163400b89039c947beb3779);
+        
+
+        marker_b97d095a455a45698dfb1e375eda957a.bindPopup(popup_fdd237e5a4e048258ddebc774c52c339)
+        ;
+
+        
+    
+    
+            var marker_f65375fdd8144cdf8aeea83382aacdfd = L.marker(
+                [60.002237, 30.299391],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_17d4856c2b854bbc91b8e37ecaf623f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f65375fdd8144cdf8aeea83382aacdfd.setIcon(icon_17d4856c2b854bbc91b8e37ecaf623f1);
+        
+    
+        var popup_38831ba7cfcc4f22b499c608cb1b21e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b75a797d1684a3d932d2dc62f78c368 = $(`<div id="html_2b75a797d1684a3d932d2dc62f78c368" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Приморский р-н, Коломяжский пр., д. 15/2</div>`)[0];
+            popup_38831ba7cfcc4f22b499c608cb1b21e6.setContent(html_2b75a797d1684a3d932d2dc62f78c368);
+        
+
+        marker_f65375fdd8144cdf8aeea83382aacdfd.bindPopup(popup_38831ba7cfcc4f22b499c608cb1b21e6)
+        ;
+
+        
+    
+    
+            var poly_line_5db7ddd436b94b6bb0049c45fdedb027 = L.polyline(
+                [[60.002237, 30.299391], [59.99754, 30.3062]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_3cef73072e2f4908aec5636911643085 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b74b8468134b7c9a0b708e454da54d = $(`<div id="html_61b74b8468134b7c9a0b708e454da54d" style="width: 100.0%; height: 100.0%;">647</div>`)[0];
+            popup_3cef73072e2f4908aec5636911643085.setContent(html_61b74b8468134b7c9a0b708e454da54d);
+        
+
+        poly_line_5db7ddd436b94b6bb0049c45fdedb027.bindPopup(popup_3cef73072e2f4908aec5636911643085)
+        ;
+
+        
+    
+    
+            var marker_4d69330ae13347a7bd6b6b1f08914b2d = L.marker(
+                [60.00909, 30.26236],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_723a437bc03340d5b524524065777d7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d69330ae13347a7bd6b6b1f08914b2d.setIcon(icon_723a437bc03340d5b524524065777d7f);
+        
+    
+        var popup_5f7972a3fd274428842a7d7155f3695e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33c956a3bed74dfbab23ee2cbd54a0e0 = $(`<div id="html_33c956a3bed74dfbab23ee2cbd54a0e0" style="width: 100.0%; height: 100.0%;">улица Уточкина 1, Санкт-Петербург, Россия, 197349</div>`)[0];
+            popup_5f7972a3fd274428842a7d7155f3695e.setContent(html_33c956a3bed74dfbab23ee2cbd54a0e0);
+        
+
+        marker_4d69330ae13347a7bd6b6b1f08914b2d.bindPopup(popup_5f7972a3fd274428842a7d7155f3695e)
+        ;
+
+        
+    
+    
+            var marker_bfccc5e217ce4b85b9d9fa5288743034 = L.marker(
+                [60.009206, 30.262697],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_8e7b0141ad214a548fec93e6705b3925 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bfccc5e217ce4b85b9d9fa5288743034.setIcon(icon_8e7b0141ad214a548fec93e6705b3925);
+        
+    
+        var popup_3d9c742993cc47ada56b8272fd999419 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f3031b0c0cd43b2af4af7c7c8591e79 = $(`<div id="html_0f3031b0c0cd43b2af4af7c7c8591e79" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Приморский р-н, ул. Уточкина, д. 1</div>`)[0];
+            popup_3d9c742993cc47ada56b8272fd999419.setContent(html_0f3031b0c0cd43b2af4af7c7c8591e79);
+        
+
+        marker_bfccc5e217ce4b85b9d9fa5288743034.bindPopup(popup_3d9c742993cc47ada56b8272fd999419)
+        ;
+
+        
+    
+    
+            var poly_line_c404efa6e8e64ed3923218a36ba0066f = L.polyline(
+                [[60.009206, 30.262697], [60.00909, 30.26236]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_65b5c541c8c34824a68adbd3253f2675 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c84321f0b0a44ffaa72d80e90e1e37d = $(`<div id="html_9c84321f0b0a44ffaa72d80e90e1e37d" style="width: 100.0%; height: 100.0%;">23</div>`)[0];
+            popup_65b5c541c8c34824a68adbd3253f2675.setContent(html_9c84321f0b0a44ffaa72d80e90e1e37d);
+        
+
+        poly_line_c404efa6e8e64ed3923218a36ba0066f.bindPopup(popup_65b5c541c8c34824a68adbd3253f2675)
+        ;
+
+        
+    
+    
+            var marker_d85a071404ef4a4c92ed77b1283027e8 = L.marker(
+                [59.94321, 30.27937],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_9231f4794dc04ae5907ccd07d0ecbe95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d85a071404ef4a4c92ed77b1283027e8.setIcon(icon_9231f4794dc04ae5907ccd07d0ecbe95);
+        
+    
+        var popup_11840d51cbfd4eb7bdf3b69889213a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a90f5c49843c474683b9e4f213348306 = $(`<div id="html_a90f5c49843c474683b9e4f213348306" style="width: 100.0%; height: 100.0%;">Средний проспект 28/29, Санкт-Петербург, Россия, 199004</div>`)[0];
+            popup_11840d51cbfd4eb7bdf3b69889213a62.setContent(html_a90f5c49843c474683b9e4f213348306);
+        
+
+        marker_d85a071404ef4a4c92ed77b1283027e8.bindPopup(popup_11840d51cbfd4eb7bdf3b69889213a62)
+        ;
+
+        
+    
+    
+            var marker_ee34738b62874ef5a5c14418f180ea72 = L.marker(
+                [59.943129, 30.279325],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_baeff05af2d44236a73fc65a5002fed8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee34738b62874ef5a5c14418f180ea72.setIcon(icon_baeff05af2d44236a73fc65a5002fed8);
+        
+    
+        var popup_09e90dfe5fb84685b5e8577a1babb5e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad115417b2c44f528904ed62ab6a79a5 = $(`<div id="html_ad115417b2c44f528904ed62ab6a79a5" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Василеостровский р-н, Средний пр. д.28/29</div>`)[0];
+            popup_09e90dfe5fb84685b5e8577a1babb5e4.setContent(html_ad115417b2c44f528904ed62ab6a79a5);
+        
+
+        marker_ee34738b62874ef5a5c14418f180ea72.bindPopup(popup_09e90dfe5fb84685b5e8577a1babb5e4)
+        ;
+
+        
+    
+    
+            var poly_line_f48205f02e014222b59733a7c4964125 = L.polyline(
+                [[59.943129, 30.279325], [59.94321, 30.27937]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_4b2f9109786f49b9bdd1588ecf345efc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8977414b0ef4c7ab7ca470ccd5f6dbd = $(`<div id="html_e8977414b0ef4c7ab7ca470ccd5f6dbd" style="width: 100.0%; height: 100.0%;">9</div>`)[0];
+            popup_4b2f9109786f49b9bdd1588ecf345efc.setContent(html_e8977414b0ef4c7ab7ca470ccd5f6dbd);
+        
+
+        poly_line_f48205f02e014222b59733a7c4964125.bindPopup(popup_4b2f9109786f49b9bdd1588ecf345efc)
+        ;
+
+        
+    
+    
+            var marker_072500f1acc04ec6a51fccf38a0afb0b = L.marker(
+                [59.93002, 30.35679],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_c7ff1d4ad42644249ea6d72ceed89c8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_072500f1acc04ec6a51fccf38a0afb0b.setIcon(icon_c7ff1d4ad42644249ea6d72ceed89c8c);
+        
+    
+        var popup_44cb7c1447ee4b01bc76f047581dffff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f86c2de1d4634725aefc2e93127463f0 = $(`<div id="html_f86c2de1d4634725aefc2e93127463f0" style="width: 100.0%; height: 100.0%;">Пушкинская улица 7, Санкт-Петербург, Россия, 191040</div>`)[0];
+            popup_44cb7c1447ee4b01bc76f047581dffff.setContent(html_f86c2de1d4634725aefc2e93127463f0);
+        
+
+        marker_072500f1acc04ec6a51fccf38a0afb0b.bindPopup(popup_44cb7c1447ee4b01bc76f047581dffff)
+        ;
+
+        
+    
+    
+            var marker_23a1947f5ff34d99993bf9f3ca08e421 = L.marker(
+                [59.930101, 30.356732],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_64d42114ba8a42b4babf1c673280bc1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23a1947f5ff34d99993bf9f3ca08e421.setIcon(icon_64d42114ba8a42b4babf1c673280bc1b);
+        
+    
+        var popup_a6f50c5afaec4f7398aac4de8354c4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_785f752b14d7449398eec61f63d9416d = $(`<div id="html_785f752b14d7449398eec61f63d9416d" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Центральный р-н, ул. Пушкинская, д. 7</div>`)[0];
+            popup_a6f50c5afaec4f7398aac4de8354c4f4.setContent(html_785f752b14d7449398eec61f63d9416d);
+        
+
+        marker_23a1947f5ff34d99993bf9f3ca08e421.bindPopup(popup_a6f50c5afaec4f7398aac4de8354c4f4)
+        ;
+
+        
+    
+    
+            var poly_line_3b5b295f0dd94f09ab5dd3ef4b6b3d5b = L.polyline(
+                [[59.930101, 30.356732], [59.93002, 30.35679]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_616a917d2de84fffa1a6d6ade9363ccc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50215e4ccf214e07874fbc469c031ca8 = $(`<div id="html_50215e4ccf214e07874fbc469c031ca8" style="width: 100.0%; height: 100.0%;">10</div>`)[0];
+            popup_616a917d2de84fffa1a6d6ade9363ccc.setContent(html_50215e4ccf214e07874fbc469c031ca8);
+        
+
+        poly_line_3b5b295f0dd94f09ab5dd3ef4b6b3d5b.bindPopup(popup_616a917d2de84fffa1a6d6ade9363ccc)
+        ;
+
+        
+    
+    
+            var marker_0a5f436d0b1541aeb0e792ba8a370e8a = L.marker(
+                [59.54689, 30.88803],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_0f35d2f4c2c34c68a47a973b1a988908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a5f436d0b1541aeb0e792ba8a370e8a.setIcon(icon_0f35d2f4c2c34c68a47a973b1a988908);
+        
+    
+        var popup_da9bc3de0a7f47fbaff56caf4f1364c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c288c3e7afac41bd9b14f030ccbeaacf = $(`<div id="html_c288c3e7afac41bd9b14f030ccbeaacf" style="width: 100.0%; height: 100.0%;">Октябрьская улица 3/1, Тосненский район, Россия, 187000</div>`)[0];
+            popup_da9bc3de0a7f47fbaff56caf4f1364c7.setContent(html_c288c3e7afac41bd9b14f030ccbeaacf);
+        
+
+        marker_0a5f436d0b1541aeb0e792ba8a370e8a.bindPopup(popup_da9bc3de0a7f47fbaff56caf4f1364c7)
+        ;
+
+        
+    
+    
+            var marker_ae5fe0144735453faf1b9b2f79d4c43d = L.marker(
+                [59.733536, 30.625571],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5b4c28959aa14c279dc15abf90b86a09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae5fe0144735453faf1b9b2f79d4c43d.setIcon(icon_5b4c28959aa14c279dc15abf90b86a09);
+        
+    
+        var popup_61a09acc89d04b21a1956fa0172adfb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_020f5bcb0e6646cd84d1816c8ef42017 = $(`<div id="html_020f5bcb0e6646cd84d1816c8ef42017" style="width: 100.0%; height: 100.0%;">Ленинградская область, Тосненский район, пос. Тельмана, улица Октябрьская, 3/1</div>`)[0];
+            popup_61a09acc89d04b21a1956fa0172adfb2.setContent(html_020f5bcb0e6646cd84d1816c8ef42017);
+        
+
+        marker_ae5fe0144735453faf1b9b2f79d4c43d.bindPopup(popup_61a09acc89d04b21a1956fa0172adfb2)
+        ;
+
+        
+    
+    
+            var poly_line_7d6d142c082f4316bb32caf7109954ac = L.polyline(
+                [[59.733536, 30.625571], [59.54689, 30.88803]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_4101f0e1753440618bc6501253fe6944 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_117d75e10bf8428b8cef60eef5e66ed5 = $(`<div id="html_117d75e10bf8428b8cef60eef5e66ed5" style="width: 100.0%; height: 100.0%;">25525</div>`)[0];
+            popup_4101f0e1753440618bc6501253fe6944.setContent(html_117d75e10bf8428b8cef60eef5e66ed5);
+        
+
+        poly_line_7d6d142c082f4316bb32caf7109954ac.bindPopup(popup_4101f0e1753440618bc6501253fe6944)
+        ;
+
+        
+    
+    
+            var marker_9a31d8b8252640fba0f70c94e4d45b86 = L.marker(
+                [59.99398, 29.76333],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_97f0bd77f78a4395b743092322af598b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9a31d8b8252640fba0f70c94e4d45b86.setIcon(icon_97f0bd77f78a4395b743092322af598b);
+        
+    
+        var popup_873703ef6b4c4791a2f230614c16f6e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e31d3774f6d4212b84a59e4edf2b234 = $(`<div id="html_6e31d3774f6d4212b84a59e4edf2b234" style="width: 100.0%; height: 100.0%;">проспект Ленина-Кронштадт 37, Санкт-Петербург, Россия, 197760</div>`)[0];
+            popup_873703ef6b4c4791a2f230614c16f6e7.setContent(html_6e31d3774f6d4212b84a59e4edf2b234);
+        
+
+        marker_9a31d8b8252640fba0f70c94e4d45b86.bindPopup(popup_873703ef6b4c4791a2f230614c16f6e7)
+        ;
+
+        
+    
+    
+            var marker_89f5b54fc49b4e3b8a27b8a12791cc0f = L.marker(
+                [59.993977, 29.763341],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_9e889618c7a54abe906716ab3d987226 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_89f5b54fc49b4e3b8a27b8a12791cc0f.setIcon(icon_9e889618c7a54abe906716ab3d987226);
+        
+    
+        var popup_7fcb2bf0727448cc9d3fd69d9314fcf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c40c0133537c49e7bdb4a3295f610ac9 = $(`<div id="html_c40c0133537c49e7bdb4a3295f610ac9" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Кронштадтский р-н, г. Кронштадт, пр. Ленина, д. 37</div>`)[0];
+            popup_7fcb2bf0727448cc9d3fd69d9314fcf9.setContent(html_c40c0133537c49e7bdb4a3295f610ac9);
+        
+
+        marker_89f5b54fc49b4e3b8a27b8a12791cc0f.bindPopup(popup_7fcb2bf0727448cc9d3fd69d9314fcf9)
+        ;
+
+        
+    
+    
+            var poly_line_8c70d3dd6d414b8fad89090d0ec4cb92 = L.polyline(
+                [[59.993977, 29.763341], [59.99398, 29.76333]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_1816532bb95e40e9815970cf817edac1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c42137b373d04668880d89d75e33f0b5 = $(`<div id="html_c42137b373d04668880d89d75e33f0b5" style="width: 100.0%; height: 100.0%;">1</div>`)[0];
+            popup_1816532bb95e40e9815970cf817edac1.setContent(html_c42137b373d04668880d89d75e33f0b5);
+        
+
+        poly_line_8c70d3dd6d414b8fad89090d0ec4cb92.bindPopup(popup_1816532bb95e40e9815970cf817edac1)
+        ;
+
+        
+    
+    
+            var marker_6b56199f091b4f4f90665696746161ec = L.marker(
+                [59.45241, 29.48957],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_a42e3d89928d45f7ba65fb6b92617028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b56199f091b4f4f90665696746161ec.setIcon(icon_a42e3d89928d45f7ba65fb6b92617028);
+        
+    
+        var popup_414c042a0ec244d2921c504663a0035f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc9617137c7244de831fdd541a12387a = $(`<div id="html_fc9617137c7244de831fdd541a12387a" style="width: 100.0%; height: 100.0%;">проспект Вингиссара 107, Волосовский район, Россия, 188410</div>`)[0];
+            popup_414c042a0ec244d2921c504663a0035f.setContent(html_fc9617137c7244de831fdd541a12387a);
+        
+
+        marker_6b56199f091b4f4f90665696746161ec.bindPopup(popup_414c042a0ec244d2921c504663a0035f)
+        ;
+
+        
+    
+    
+            var marker_9af0f5be215e4518a6d6bc4dcabdd7af = L.marker(
+                [59.452036, 29.488879],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_407a27dda4804f48ac2429f400ca2687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9af0f5be215e4518a6d6bc4dcabdd7af.setIcon(icon_407a27dda4804f48ac2429f400ca2687);
+        
+    
+        var popup_b51e4c65805847b38558416c5df6052f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_425605c9f65349dc978312e5d69cd208 = $(`<div id="html_425605c9f65349dc978312e5d69cd208" style="width: 100.0%; height: 100.0%;">Ленинградская область, Волосовский район, город Волосово, проспект Вингиссара, 107</div>`)[0];
+            popup_b51e4c65805847b38558416c5df6052f.setContent(html_425605c9f65349dc978312e5d69cd208);
+        
+
+        marker_9af0f5be215e4518a6d6bc4dcabdd7af.bindPopup(popup_b51e4c65805847b38558416c5df6052f)
+        ;
+
+        
+    
+    
+            var poly_line_bdbded7a1487462b9c97a9f94c0d608b = L.polyline(
+                [[59.452036, 29.488879], [59.45241, 29.48957]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_be1bbf243bb34ec9a19023ef6de2424d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b78376fd3803457da29e705da4bd3ddb = $(`<div id="html_b78376fd3803457da29e705da4bd3ddb" style="width: 100.0%; height: 100.0%;">57</div>`)[0];
+            popup_be1bbf243bb34ec9a19023ef6de2424d.setContent(html_b78376fd3803457da29e705da4bd3ddb);
+        
+
+        poly_line_bdbded7a1487462b9c97a9f94c0d608b.bindPopup(popup_be1bbf243bb34ec9a19023ef6de2424d)
+        ;
+
+        
+    
+    
+            var marker_28bdfc1865344faa84ff3b39b0f11b70 = L.marker(
+                [60.01747, 30.64576],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_67d073d654d345a1acfec62de70182eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_28bdfc1865344faa84ff3b39b0f11b70.setIcon(icon_67d073d654d345a1acfec62de70182eb);
+        
+    
+        var popup_eea6e7750f3a4f3e96813f5a1ac0dd11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc8cc4aa5c34404f961087af4d582085 = $(`<div id="html_bc8cc4aa5c34404f961087af4d582085" style="width: 100.0%; height: 100.0%;">Всеволожский проспект 56, Всеволожский район, Россия, 188640</div>`)[0];
+            popup_eea6e7750f3a4f3e96813f5a1ac0dd11.setContent(html_bc8cc4aa5c34404f961087af4d582085);
+        
+
+        marker_28bdfc1865344faa84ff3b39b0f11b70.bindPopup(popup_eea6e7750f3a4f3e96813f5a1ac0dd11)
+        ;
+
+        
+    
+    
+            var marker_a6c7f60179a54705bdf0207b5c253e81 = L.marker(
+                [60.017517, 30.645729],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_c3702c4a61364f96be03923be3ff80f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6c7f60179a54705bdf0207b5c253e81.setIcon(icon_c3702c4a61364f96be03923be3ff80f4);
+        
+    
+        var popup_70c75161c1ae4899911b6ddb2711af15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc382a375bf04eea89cbd51a51a2f095 = $(`<div id="html_fc382a375bf04eea89cbd51a51a2f095" style="width: 100.0%; height: 100.0%;">Ленинградская область, Всеволожский район, город Всеволожск, Всеволожский проспект, д. 56</div>`)[0];
+            popup_70c75161c1ae4899911b6ddb2711af15.setContent(html_fc382a375bf04eea89cbd51a51a2f095);
+        
+
+        marker_a6c7f60179a54705bdf0207b5c253e81.bindPopup(popup_70c75161c1ae4899911b6ddb2711af15)
+        ;
+
+        
+    
+    
+            var poly_line_0b4d21065e734effa9a71e496f3c883f = L.polyline(
+                [[60.017517, 30.645729], [60.01747, 30.64576]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_be705c290641405394586650161685be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45a9128c23284b629a2286ee4d450132 = $(`<div id="html_45a9128c23284b629a2286ee4d450132" style="width: 100.0%; height: 100.0%;">6</div>`)[0];
+            popup_be705c290641405394586650161685be.setContent(html_45a9128c23284b629a2286ee4d450132);
+        
+
+        poly_line_0b4d21065e734effa9a71e496f3c883f.bindPopup(popup_be705c290641405394586650161685be)
+        ;
+
+        
+    
+    
+            var marker_8cc6079cca2a4124987f44a9e186b158 = L.marker(
+                [60.71381, 28.74944],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_b4fd7d7c79f844ee82f7c0eb34740b20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8cc6079cca2a4124987f44a9e186b158.setIcon(icon_b4fd7d7c79f844ee82f7c0eb34740b20);
+        
+    
+        var popup_6b83ba71ad9049c1834e8e827737252b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f7d7ec5f5e04da4a0bc588ca9f8de1b = $(`<div id="html_6f7d7ec5f5e04da4a0bc588ca9f8de1b" style="width: 100.0%; height: 100.0%;">Ленинградский проспект 29/2, Выборгский район, Россия, 188800</div>`)[0];
+            popup_6b83ba71ad9049c1834e8e827737252b.setContent(html_6f7d7ec5f5e04da4a0bc588ca9f8de1b);
+        
+
+        marker_8cc6079cca2a4124987f44a9e186b158.bindPopup(popup_6b83ba71ad9049c1834e8e827737252b)
+        ;
+
+        
+    
+    
+            var marker_fc7257d4cbdd4e23aac2b43254e5627d = L.marker(
+                [60.713678, 28.749422],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5e67f1e3dcad4556a7fb49a14dbd4302 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc7257d4cbdd4e23aac2b43254e5627d.setIcon(icon_5e67f1e3dcad4556a7fb49a14dbd4302);
+        
+    
+        var popup_0936e1eb789e4cbf8e4ac39118b1f823 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a13df91d767487b8300fd3600bd88d7 = $(`<div id="html_6a13df91d767487b8300fd3600bd88d7" style="width: 100.0%; height: 100.0%;">Ленинградская область, город Выборг, Ленинградский проспект, 29/2</div>`)[0];
+            popup_0936e1eb789e4cbf8e4ac39118b1f823.setContent(html_6a13df91d767487b8300fd3600bd88d7);
+        
+
+        marker_fc7257d4cbdd4e23aac2b43254e5627d.bindPopup(popup_0936e1eb789e4cbf8e4ac39118b1f823)
+        ;
+
+        
+    
+    
+            var poly_line_166f18517ed547758a5e07384de71f9b = L.polyline(
+                [[60.713678, 28.749422], [60.71381, 28.74944]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_d2c33d350b0a4bec8947619eacd5b448 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a01bf610ec8042998b3f0363acf3afa2 = $(`<div id="html_a01bf610ec8042998b3f0363acf3afa2" style="width: 100.0%; height: 100.0%;">15</div>`)[0];
+            popup_d2c33d350b0a4bec8947619eacd5b448.setContent(html_a01bf610ec8042998b3f0363acf3afa2);
+        
+
+        poly_line_166f18517ed547758a5e07384de71f9b.bindPopup(popup_d2c33d350b0a4bec8947619eacd5b448)
+        ;
+
+        
+    
+    
+            var marker_d610e1bbc22644328d4b9266c83164a3 = L.marker(
+                [59.565, 30.12754],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_63445a7f523a4c9b8b7f64e066e5176a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d610e1bbc22644328d4b9266c83164a3.setIcon(icon_63445a7f523a4c9b8b7f64e066e5176a);
+        
+    
+        var popup_00037e07a1a64e439d6f3c252b5115cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_563ea81527e9437c8415e634a8c4e50f = $(`<div id="html_563ea81527e9437c8415e634a8c4e50f" style="width: 100.0%; height: 100.0%;">улица Карла Маркса 41, Гатчинский район, Россия, 188300</div>`)[0];
+            popup_00037e07a1a64e439d6f3c252b5115cf.setContent(html_563ea81527e9437c8415e634a8c4e50f);
+        
+
+        marker_d610e1bbc22644328d4b9266c83164a3.bindPopup(popup_00037e07a1a64e439d6f3c252b5115cf)
+        ;
+
+        
+    
+    
+            var marker_5e7a6e9963344ac6b6cd64457d882dae = L.marker(
+                [59.564969, 30.127464],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_73a0fdd1b2f14ddd940dd9d9df68107a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e7a6e9963344ac6b6cd64457d882dae.setIcon(icon_73a0fdd1b2f14ddd940dd9d9df68107a);
+        
+    
+        var popup_a677b52be2954a988b8502809e93a79d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c19e2e652a134ac7a62a3189194ee183 = $(`<div id="html_c19e2e652a134ac7a62a3189194ee183" style="width: 100.0%; height: 100.0%;">Ленинградская область, Гатчинский район, город Гатчина, улица Карла Маркса, 41</div>`)[0];
+            popup_a677b52be2954a988b8502809e93a79d.setContent(html_c19e2e652a134ac7a62a3189194ee183);
+        
+
+        marker_5e7a6e9963344ac6b6cd64457d882dae.bindPopup(popup_a677b52be2954a988b8502809e93a79d)
+        ;
+
+        
+    
+    
+            var poly_line_d9b426d62fc640f18bf88b4d4f52f217 = L.polyline(
+                [[59.564969, 30.127464], [59.565, 30.12754]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_7bd16ece6e5344019fc9229232c307f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2737930f3e654ec9ac6ce23d72709d87 = $(`<div id="html_2737930f3e654ec9ac6ce23d72709d87" style="width: 100.0%; height: 100.0%;">6</div>`)[0];
+            popup_7bd16ece6e5344019fc9229232c307f7.setContent(html_2737930f3e654ec9ac6ce23d72709d87);
+        
+
+        poly_line_d9b426d62fc640f18bf88b4d4f52f217.bindPopup(popup_7bd16ece6e5344019fc9229232c307f7)
+        ;
+
+        
+    
+    
+            var marker_949730e4f48c4176923749f94e9d0ced = L.marker(
+                [59.37238, 28.60333],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_687f3b0a2ace44d3aecf6a71e411d341 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_949730e4f48c4176923749f94e9d0ced.setIcon(icon_687f3b0a2ace44d3aecf6a71e411d341);
+        
+    
+        var popup_baf4f3ce7f8d483bbe7d2c43c504ac6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cfd1e19cdf94e64b7dfb5db50c0f65d = $(`<div id="html_7cfd1e19cdf94e64b7dfb5db50c0f65d" style="width: 100.0%; height: 100.0%;">проспект Карла Маркса 15, Кингисеппский район, Россия, 188480</div>`)[0];
+            popup_baf4f3ce7f8d483bbe7d2c43c504ac6e.setContent(html_7cfd1e19cdf94e64b7dfb5db50c0f65d);
+        
+
+        marker_949730e4f48c4176923749f94e9d0ced.bindPopup(popup_baf4f3ce7f8d483bbe7d2c43c504ac6e)
+        ;
+
+        
+    
+    
+            var marker_a6cf7bdf3b994d7ea3bc21d349e9b00f = L.marker(
+                [59.372384, 28.603468],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_1b0c0392e8fa4b858a5efa9fd350e406 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6cf7bdf3b994d7ea3bc21d349e9b00f.setIcon(icon_1b0c0392e8fa4b858a5efa9fd350e406);
+        
+    
+        var popup_5dbae8df57d04716ac187b67b26c8808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_487ee2cfac09489e88b6c12f89f92fc7 = $(`<div id="html_487ee2cfac09489e88b6c12f89f92fc7" style="width: 100.0%; height: 100.0%;">Ленинградская область, город Кингисепп, улица Карла Маркса. 15/15</div>`)[0];
+            popup_5dbae8df57d04716ac187b67b26c8808.setContent(html_487ee2cfac09489e88b6c12f89f92fc7);
+        
+
+        marker_a6cf7bdf3b994d7ea3bc21d349e9b00f.bindPopup(popup_5dbae8df57d04716ac187b67b26c8808)
+        ;
+
+        
+    
+    
+            var poly_line_1fb54cdfba124691b952e00c8ebed2cf = L.polyline(
+                [[59.372384, 28.603468], [59.37238, 28.60333]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_514e99e578a946b98dabad5b8fc6d9d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bb5ecaf587146b8bf9a1c62c65fe556 = $(`<div id="html_0bb5ecaf587146b8bf9a1c62c65fe556" style="width: 100.0%; height: 100.0%;">8</div>`)[0];
+            popup_514e99e578a946b98dabad5b8fc6d9d2.setContent(html_0bb5ecaf587146b8bf9a1c62c65fe556);
+        
+
+        poly_line_1fb54cdfba124691b952e00c8ebed2cf.bindPopup(popup_514e99e578a946b98dabad5b8fc6d9d2)
+        ;
+
+        
+    
+    
+            var marker_f8e009cac28740ffaf7819bfd63913f4 = L.marker(
+                [59.88092, 30.98977],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_ec254b6036204b79ae95c079edb3b8e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8e009cac28740ffaf7819bfd63913f4.setIcon(icon_ec254b6036204b79ae95c079edb3b8e8);
+        
+    
+        var popup_a9687f53a45f4ebf9fa9af8b984d0c3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6cc4a768ab04fc5a83a86b23a64d607 = $(`<div id="html_c6cc4a768ab04fc5a83a86b23a64d607" style="width: 100.0%; height: 100.0%;">Новая улица 5а, Кировский район, Россия, 187342</div>`)[0];
+            popup_a9687f53a45f4ebf9fa9af8b984d0c3c.setContent(html_c6cc4a768ab04fc5a83a86b23a64d607);
+        
+
+        marker_f8e009cac28740ffaf7819bfd63913f4.bindPopup(popup_a9687f53a45f4ebf9fa9af8b984d0c3c)
+        ;
+
+        
+    
+    
+            var marker_853b913ef8644388b587726738095386 = L.marker(
+                [59.879719, 30.9885],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_4ecd5e7f69af4449a7ab8a5b96f7d625 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_853b913ef8644388b587726738095386.setIcon(icon_4ecd5e7f69af4449a7ab8a5b96f7d625);
+        
+    
+        var popup_78919a7dfb8d4c81a19bb34dc7a41b31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a75f1ff688374f1983f6ded92ae83462 = $(`<div id="html_a75f1ff688374f1983f6ded92ae83462" style="width: 100.0%; height: 100.0%;">Ленинградская область, Кировский район, город Кировск улица Новая, 5А</div>`)[0];
+            popup_78919a7dfb8d4c81a19bb34dc7a41b31.setContent(html_a75f1ff688374f1983f6ded92ae83462);
+        
+
+        marker_853b913ef8644388b587726738095386.bindPopup(popup_78919a7dfb8d4c81a19bb34dc7a41b31)
+        ;
+
+        
+    
+    
+            var poly_line_48f544a28d704e35b319655d64be6e06 = L.polyline(
+                [[59.879719, 30.9885], [59.88092, 30.98977]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_d53c4757c990476ea7ecfaa1c0022260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fcf77854c4c4a35bb36832543526cbc = $(`<div id="html_5fcf77854c4c4a35bb36832543526cbc" style="width: 100.0%; height: 100.0%;">152</div>`)[0];
+            popup_d53c4757c990476ea7ecfaa1c0022260.setContent(html_5fcf77854c4c4a35bb36832543526cbc);
+        
+
+        poly_line_48f544a28d704e35b319655d64be6e06.bindPopup(popup_d53c4757c990476ea7ecfaa1c0022260)
+        ;
+
+        
+    
+    
+            var marker_7f625fa3fcb040ca86d44c0e560d9f4f = L.marker(
+                [59.91697, 29.76302],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_79eb21fdf6384284aef4577dc433f578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f625fa3fcb040ca86d44c0e560d9f4f.setIcon(icon_79eb21fdf6384284aef4577dc433f578);
+        
+    
+        var popup_3146946dc0814de6ba57045b000e80c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe23c821c9b34c65ac5caf6dd2505d92 = $(`<div id="html_fe23c821c9b34c65ac5caf6dd2505d92" style="width: 100.0%; height: 100.0%;">улица Рубакина 21, Санкт-Петербург, Россия, 198412</div>`)[0];
+            popup_3146946dc0814de6ba57045b000e80c6.setContent(html_fe23c821c9b34c65ac5caf6dd2505d92);
+        
+
+        marker_7f625fa3fcb040ca86d44c0e560d9f4f.bindPopup(popup_3146946dc0814de6ba57045b000e80c6)
+        ;
+
+        
+    
+    
+            var marker_19562d7028264379acd4cc018f4e5628 = L.marker(
+                [59.916252, 29.770806],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_427ec7d052aa4b388f2d939a08aee916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19562d7028264379acd4cc018f4e5628.setIcon(icon_427ec7d052aa4b388f2d939a08aee916);
+        
+    
+        var popup_e786247ed4014042aa6cdcc313cc790c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e65fe47ab6f4224bf46540228fb2349 = $(`<div id="html_0e65fe47ab6f4224bf46540228fb2349" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Петродворцовый р-н, г. Ломоносов, ул. Рубакина, д. 2/5</div>`)[0];
+            popup_e786247ed4014042aa6cdcc313cc790c.setContent(html_0e65fe47ab6f4224bf46540228fb2349);
+        
+
+        marker_19562d7028264379acd4cc018f4e5628.bindPopup(popup_e786247ed4014042aa6cdcc313cc790c)
+        ;
+
+        
+    
+    
+            var poly_line_364f542e979946248dea6ddf97ce0b6f = L.polyline(
+                [[59.916252, 29.770806], [59.91697, 29.76302]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_8e70cc51bc574f999e0ead88a64e1c8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4aea23602755495493792520237f4633 = $(`<div id="html_4aea23602755495493792520237f4633" style="width: 100.0%; height: 100.0%;">443</div>`)[0];
+            popup_8e70cc51bc574f999e0ead88a64e1c8e.setContent(html_4aea23602755495493792520237f4633);
+        
+
+        poly_line_364f542e979946248dea6ddf97ce0b6f.bindPopup(popup_8e70cc51bc574f999e0ead88a64e1c8e)
+        ;
+
+        
+    
+    
+            var marker_cdad1230e15448c2b540945591d22fdd = L.marker(
+                [58.73287, 29.84721],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_bc6ad69c94b44d2dabd1635d6e863983 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdad1230e15448c2b540945591d22fdd.setIcon(icon_bc6ad69c94b44d2dabd1635d6e863983);
+        
+    
+        var popup_d2c84c436ede432cba5abe5168efc2e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1afec5de6ac741b9a01cd012eaba20c6 = $(`<div id="html_1afec5de6ac741b9a01cd012eaba20c6" style="width: 100.0%; height: 100.0%;">проспект Кирова 81, Лужский район, Россия, 188230</div>`)[0];
+            popup_d2c84c436ede432cba5abe5168efc2e1.setContent(html_1afec5de6ac741b9a01cd012eaba20c6);
+        
+
+        marker_cdad1230e15448c2b540945591d22fdd.bindPopup(popup_d2c84c436ede432cba5abe5168efc2e1)
+        ;
+
+        
+    
+    
+            var marker_db80a50a6584472993d8fcc4c531d428 = L.marker(
+                [58.732829, 29.84719],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_07ce2ab0a06b48699857bc97465618fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db80a50a6584472993d8fcc4c531d428.setIcon(icon_07ce2ab0a06b48699857bc97465618fb);
+        
+    
+        var popup_64c060110a45477694ad750da7a85218 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3475fc381e6c49bcb71cc9f213d06a1f = $(`<div id="html_3475fc381e6c49bcb71cc9f213d06a1f" style="width: 100.0%; height: 100.0%;">Ленинградская область, Лужский район, город Луга, проспект Кирова, 81</div>`)[0];
+            popup_64c060110a45477694ad750da7a85218.setContent(html_3475fc381e6c49bcb71cc9f213d06a1f);
+        
+
+        marker_db80a50a6584472993d8fcc4c531d428.bindPopup(popup_64c060110a45477694ad750da7a85218)
+        ;
+
+        
+    
+    
+            var poly_line_a840a07e969f4265bd6365ddee58ae39 = L.polyline(
+                [[58.732829, 29.84719], [58.73287, 29.84721]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_4edf4d6c62d74385a347ba5a77ede9ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34dbf7689b054895a418d8df78f6c048 = $(`<div id="html_34dbf7689b054895a418d8df78f6c048" style="width: 100.0%; height: 100.0%;">5</div>`)[0];
+            popup_4edf4d6c62d74385a347ba5a77ede9ff.setContent(html_34dbf7689b054895a418d8df78f6c048);
+        
+
+        poly_line_a840a07e969f4265bd6365ddee58ae39.bindPopup(popup_4edf4d6c62d74385a347ba5a77ede9ff)
+        ;
+
+        
+    
+    
+            var marker_46cb1b8af3a64be8921d4fd34a711b72 = L.marker(
+                [61.03549, 30.1167],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_b0159ce308dd46df8b4f58d5e59c1d87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46cb1b8af3a64be8921d4fd34a711b72.setIcon(icon_b0159ce308dd46df8b4f58d5e59c1d87);
+        
+    
+        var popup_468110f9d44241a08a162d7e9676c727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b0ba02fbd32416e9cf14a639556d3b3 = $(`<div id="html_1b0ba02fbd32416e9cf14a639556d3b3" style="width: 100.0%; height: 100.0%;">улица Калинина 11, Приозерский район, Россия, 188760</div>`)[0];
+            popup_468110f9d44241a08a162d7e9676c727.setContent(html_1b0ba02fbd32416e9cf14a639556d3b3);
+        
+
+        marker_46cb1b8af3a64be8921d4fd34a711b72.bindPopup(popup_468110f9d44241a08a162d7e9676c727)
+        ;
+
+        
+    
+    
+            var marker_f5634967338640ef9a1fb2a671872bcd = L.marker(
+                [61.035639, 30.116119],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_0037376c6d8f429288f2e7004fd8bc4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f5634967338640ef9a1fb2a671872bcd.setIcon(icon_0037376c6d8f429288f2e7004fd8bc4b);
+        
+    
+        var popup_cf51dba734214c6b915c1ea1bb535427 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8ac4c7501334bbeb138dbce7f69d5c0 = $(`<div id="html_b8ac4c7501334bbeb138dbce7f69d5c0" style="width: 100.0%; height: 100.0%;">Ленинградская область, Приозерский район, город Приозерск, улица Калинина , 11</div>`)[0];
+            popup_cf51dba734214c6b915c1ea1bb535427.setContent(html_b8ac4c7501334bbeb138dbce7f69d5c0);
+        
+
+        marker_f5634967338640ef9a1fb2a671872bcd.bindPopup(popup_cf51dba734214c6b915c1ea1bb535427)
+        ;
+
+        
+    
+    
+            var poly_line_37e3df181a714a5894e59c5657b088d3 = L.polyline(
+                [[61.035639, 30.116119], [61.03549, 30.1167]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_c0d47bbec5ed45d99789f0d527486e05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ea66109b7174b91975f6b66b4a31029 = $(`<div id="html_8ea66109b7174b91975f6b66b4a31029" style="width: 100.0%; height: 100.0%;">36</div>`)[0];
+            popup_c0d47bbec5ed45d99789f0d527486e05.setContent(html_8ea66109b7174b91975f6b66b4a31029);
+        
+
+        poly_line_37e3df181a714a5894e59c5657b088d3.bindPopup(popup_c0d47bbec5ed45d99789f0d527486e05)
+        ;
+
+        
+    
+    
+            var marker_a64f4b3d35984753bbd3a553be50ee9f = L.marker(
+                [59.11625, 28.08771],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_ba6165c12ad94439b42186b93ab1d912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a64f4b3d35984753bbd3a553be50ee9f.setIcon(icon_ba6165c12ad94439b42186b93ab1d912);
+        
+    
+        var popup_85cac1ab4f7e472cb11c876173faca31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e282f2cdf5274b48a7c6d5522668c9f8 = $(`<div id="html_e282f2cdf5274b48a7c6d5522668c9f8" style="width: 100.0%; height: 100.0%;">улица Кирова 41, Сланцевский район, Россия, 188560</div>`)[0];
+            popup_85cac1ab4f7e472cb11c876173faca31.setContent(html_e282f2cdf5274b48a7c6d5522668c9f8);
+        
+
+        marker_a64f4b3d35984753bbd3a553be50ee9f.bindPopup(popup_85cac1ab4f7e472cb11c876173faca31)
+        ;
+
+        
+    
+    
+            var marker_b128732f09a745deb3677efc654d15e2 = L.marker(
+                [59.116201, 28.087687],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_e3692a47612f4529bd16b95741399de9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b128732f09a745deb3677efc654d15e2.setIcon(icon_e3692a47612f4529bd16b95741399de9);
+        
+    
+        var popup_7b4e6b9ec843400d8823876006c419fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6dc64584d154eebbb3fa887db9aa938 = $(`<div id="html_e6dc64584d154eebbb3fa887db9aa938" style="width: 100.0%; height: 100.0%;">Ленинградская область, Сланцевский район. город Сланцы, улица Кирова, 41</div>`)[0];
+            popup_7b4e6b9ec843400d8823876006c419fe.setContent(html_e6dc64584d154eebbb3fa887db9aa938);
+        
+
+        marker_b128732f09a745deb3677efc654d15e2.bindPopup(popup_7b4e6b9ec843400d8823876006c419fe)
+        ;
+
+        
+    
+    
+            var poly_line_7b10784448a74a1993d2c9257a612052 = L.polyline(
+                [[59.116201, 28.087687], [59.11625, 28.08771]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_7902721b4f3d4306b489923bc7ffe189 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5f94ffd6d6b4d98a0b6a1d5854b6dea = $(`<div id="html_c5f94ffd6d6b4d98a0b6a1d5854b6dea" style="width: 100.0%; height: 100.0%;">6</div>`)[0];
+            popup_7902721b4f3d4306b489923bc7ffe189.setContent(html_c5f94ffd6d6b4d98a0b6a1d5854b6dea);
+        
+
+        poly_line_7b10784448a74a1993d2c9257a612052.bindPopup(popup_7902721b4f3d4306b489923bc7ffe189)
+        ;
+
+        
+    
+    
+            var marker_2041d94caed24be5b502734ae2bb19e4 = L.marker(
+                [59.64467, 33.54001],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_2ec1259eaaf9456382bd6b18c10e525c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2041d94caed24be5b502734ae2bb19e4.setIcon(icon_2ec1259eaaf9456382bd6b18c10e525c);
+        
+    
+        var popup_21b09113852e4e53b5fa31637394839c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61eb2a5c0c534480804ce01e31ee7791 = $(`<div id="html_61eb2a5c0c534480804ce01e31ee7791" style="width: 100.0%; height: 100.0%;">4-й микрорайон 7, Тихвинский район, Россия, 187555</div>`)[0];
+            popup_21b09113852e4e53b5fa31637394839c.setContent(html_61eb2a5c0c534480804ce01e31ee7791);
+        
+
+        marker_2041d94caed24be5b502734ae2bb19e4.bindPopup(popup_21b09113852e4e53b5fa31637394839c)
+        ;
+
+        
+    
+    
+            var marker_348e99f9949b4cb2aada645a60c45527 = L.marker(
+                [59.644736, 33.539904],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5ebc8ae625b94cb382952527cc5fcbaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_348e99f9949b4cb2aada645a60c45527.setIcon(icon_5ebc8ae625b94cb382952527cc5fcbaa);
+        
+    
+        var popup_0226bfef9cf34e6ab9a3c1020d23027d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b97457f74be4ac08e4ee666c2c7111e = $(`<div id="html_3b97457f74be4ac08e4ee666c2c7111e" style="width: 100.0%; height: 100.0%;">Тихвинский район, город Тихвин, 4-й Микрорайон, 7, оф.17</div>`)[0];
+            popup_0226bfef9cf34e6ab9a3c1020d23027d.setContent(html_3b97457f74be4ac08e4ee666c2c7111e);
+        
+
+        marker_348e99f9949b4cb2aada645a60c45527.bindPopup(popup_0226bfef9cf34e6ab9a3c1020d23027d)
+        ;
+
+        
+    
+    
+            var poly_line_b74f277791b84d37a227968c3fae2a53 = L.polyline(
+                [[59.644736, 33.539904], [59.64467, 33.54001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_af1326d2b4f84e68a37ac84b7bc64c8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40b85d8ebb634b5c92c9fc79c9aaf847 = $(`<div id="html_40b85d8ebb634b5c92c9fc79c9aaf847" style="width: 100.0%; height: 100.0%;">9</div>`)[0];
+            popup_af1326d2b4f84e68a37ac84b7bc64c8e.setContent(html_40b85d8ebb634b5c92c9fc79c9aaf847);
+        
+
+        poly_line_b74f277791b84d37a227968c3fae2a53.bindPopup(popup_af1326d2b4f84e68a37ac84b7bc64c8e)
+        ;
+
+        
+    
+    
+            var marker_5d0aa93507574370b323c9ab6ac82905 = L.marker(
+                [59.68821, 30.70192],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_2daae923d4f14faf9b0fe29d428087ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d0aa93507574370b323c9ab6ac82905.setIcon(icon_2daae923d4f14faf9b0fe29d428087ef);
+        
+    
+        var popup_0a29602226804da58f7e90171c46a1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2fc58bc024b41c08f47835e589b4e41 = $(`<div id="html_b2fc58bc024b41c08f47835e589b4e41" style="width: 100.0%; height: 100.0%;">улица Ленина 41, Тосненский район, Россия, 187015</div>`)[0];
+            popup_0a29602226804da58f7e90171c46a1f3.setContent(html_b2fc58bc024b41c08f47835e589b4e41);
+        
+
+        marker_5d0aa93507574370b323c9ab6ac82905.bindPopup(popup_0a29602226804da58f7e90171c46a1f3)
+        ;
+
+        
+    
+    
+            var marker_9c469c117e9944089314c9f0e60258f6 = L.marker(
+                [59.540559, 30.87577],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_cd4c66ad7ab94d55a4dda2cc9eb08092 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9c469c117e9944089314c9f0e60258f6.setIcon(icon_cd4c66ad7ab94d55a4dda2cc9eb08092);
+        
+    
+        var popup_0bd74a4171174ef1b053db5b8994681c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b654b09dd69b4a879f565bebb2923f39 = $(`<div id="html_b654b09dd69b4a879f565bebb2923f39" style="width: 100.0%; height: 100.0%;">Ленинградская область, Тосненский район, г.Тосно , улица Ленина, 71</div>`)[0];
+            popup_0bd74a4171174ef1b053db5b8994681c.setContent(html_b654b09dd69b4a879f565bebb2923f39);
+        
+
+        marker_9c469c117e9944089314c9f0e60258f6.bindPopup(popup_0bd74a4171174ef1b053db5b8994681c)
+        ;
+
+        
+    
+    
+            var poly_line_a644fc9d5a904e2fa01aa789c9d18676 = L.polyline(
+                [[59.540559, 30.87577], [59.68821, 30.70192]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_b9f5462714a44436b29eb742598141c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f48c689794d14d319359b1e98d21273f = $(`<div id="html_f48c689794d14d319359b1e98d21273f" style="width: 100.0%; height: 100.0%;">19154</div>`)[0];
+            popup_b9f5462714a44436b29eb742598141c4.setContent(html_f48c689794d14d319359b1e98d21273f);
+        
+
+        poly_line_a644fc9d5a904e2fa01aa789c9d18676.bindPopup(popup_b9f5462714a44436b29eb742598141c4)
+        ;
+
+        
+    
+    
+            var marker_8c0c230e28594aa0b5c6ba84ede55906 = L.marker(
+                [60.74093, 33.54301],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_2e37cbbea8164692af907609ba58d836 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8c0c230e28594aa0b5c6ba84ede55906.setIcon(icon_2e37cbbea8164692af907609ba58d836);
+        
+    
+        var popup_cd92203bc8364b7cabc4feccf6b410f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_173cdc7ea86e4e9b9ac6e5102f1d3193 = $(`<div id="html_173cdc7ea86e4e9b9ac6e5102f1d3193" style="width: 100.0%; height: 100.0%;">улица Гагарина 6, Лодейнопольский район, Россия, 187700</div>`)[0];
+            popup_cd92203bc8364b7cabc4feccf6b410f6.setContent(html_173cdc7ea86e4e9b9ac6e5102f1d3193);
+        
+
+        marker_8c0c230e28594aa0b5c6ba84ede55906.bindPopup(popup_cd92203bc8364b7cabc4feccf6b410f6)
+        ;
+
+        
+    
+    
+            var marker_be14217677934b29bf49511a2aebbcfa = L.marker(
+                [60.740515, 33.543964],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_2d44e14dc749457ba81c87a1d8ac5df6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be14217677934b29bf49511a2aebbcfa.setIcon(icon_2d44e14dc749457ba81c87a1d8ac5df6);
+        
+    
+        var popup_95746fa0fa914e00be2eb65a829f41f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5edf5da34ab64b86be884f7b708658ee = $(`<div id="html_5edf5da34ab64b86be884f7b708658ee" style="width: 100.0%; height: 100.0%;">Лодейнопольский район, город Лодейное Поле, улица Гагарина, 6</div>`)[0];
+            popup_95746fa0fa914e00be2eb65a829f41f0.setContent(html_5edf5da34ab64b86be884f7b708658ee);
+        
+
+        marker_be14217677934b29bf49511a2aebbcfa.bindPopup(popup_95746fa0fa914e00be2eb65a829f41f0)
+        ;
+
+        
+    
+    
+            var poly_line_1e7fd81414254ec0af2f8d7a4afd1216 = L.polyline(
+                [[60.740515, 33.543964], [60.74093, 33.54301]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_71cb14b08dcd4da7beec45198270c7f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1331ddf2c264463fa94200789787b090 = $(`<div id="html_1331ddf2c264463fa94200789787b090" style="width: 100.0%; height: 100.0%;">70</div>`)[0];
+            popup_71cb14b08dcd4da7beec45198270c7f9.setContent(html_1331ddf2c264463fa94200789787b090);
+        
+
+        poly_line_1e7fd81414254ec0af2f8d7a4afd1216.bindPopup(popup_71cb14b08dcd4da7beec45198270c7f9)
+        ;
+
+        
+    
+    
+            var marker_9a60aaa3b5684d0aa6f0db22adf92d9d = L.marker(
+                [59.47426, 33.8461],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_bb325aac7e3c4bfca17e376b7150b71d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9a60aaa3b5684d0aa6f0db22adf92d9d.setIcon(icon_bb325aac7e3c4bfca17e376b7150b71d);
+        
+    
+        var popup_2e73a4decd104db1a25a27bb6bbad6dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0a2114b882640f281f860059fe18946 = $(`<div id="html_c0a2114b882640f281f860059fe18946" style="width: 100.0%; height: 100.0%;">Комсомольская улица 7, Бокситогорский район, Россия, 187650</div>`)[0];
+            popup_2e73a4decd104db1a25a27bb6bbad6dd.setContent(html_c0a2114b882640f281f860059fe18946);
+        
+
+        marker_9a60aaa3b5684d0aa6f0db22adf92d9d.bindPopup(popup_2e73a4decd104db1a25a27bb6bbad6dd)
+        ;
+
+        
+    
+    
+            var marker_83f2148098404b9cb48315de51c93488 = L.marker(
+                [59.474212, 33.844406],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_500d84cf4a404d4c8120e9232bf9b3f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83f2148098404b9cb48315de51c93488.setIcon(icon_500d84cf4a404d4c8120e9232bf9b3f9);
+        
+    
+        var popup_0dae2c6f2b80423680201df9ee2350b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a094913ac1c40788c89796533a5aadb = $(`<div id="html_0a094913ac1c40788c89796533a5aadb" style="width: 100.0%; height: 100.0%;">Бокситогорский район, город Бокситогорск, улица Комсомольская, 7</div>`)[0];
+            popup_0dae2c6f2b80423680201df9ee2350b9.setContent(html_0a094913ac1c40788c89796533a5aadb);
+        
+
+        marker_83f2148098404b9cb48315de51c93488.bindPopup(popup_0dae2c6f2b80423680201df9ee2350b9)
+        ;
+
+        
+    
+    
+            var poly_line_5eba73e1d36c4f56ad443edbb244d91b = L.polyline(
+                [[59.474212, 33.844406], [59.47426, 33.8461]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_8dc8926938d84616aa5def93ac8fc905 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6508f546575549ff821691c29f25e429 = $(`<div id="html_6508f546575549ff821691c29f25e429" style="width: 100.0%; height: 100.0%;">96</div>`)[0];
+            popup_8dc8926938d84616aa5def93ac8fc905.setContent(html_6508f546575549ff821691c29f25e429);
+        
+
+        poly_line_5eba73e1d36c4f56ad443edbb244d91b.bindPopup(popup_8dc8926938d84616aa5def93ac8fc905)
+        ;
+
+        
+    
+    
+            var marker_ca0f2b6314c24dae9bf3e44b4c558de9 = L.marker(
+                [57.82095, 28.32097],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_ae8337b466084c3d9cbc6b6ed0371b1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca0f2b6314c24dae9bf3e44b4c558de9.setIcon(icon_ae8337b466084c3d9cbc6b6ed0371b1c);
+        
+    
+        var popup_76ad4bb0fba6417081593987223e6291 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d33888af30c4b0abc141f3aaa314a7e = $(`<div id="html_9d33888af30c4b0abc141f3aaa314a7e" style="width: 100.0%; height: 100.0%;">улица Максима Горького 6А, Псков, Россия, 180007</div>`)[0];
+            popup_76ad4bb0fba6417081593987223e6291.setContent(html_9d33888af30c4b0abc141f3aaa314a7e);
+        
+
+        marker_ca0f2b6314c24dae9bf3e44b4c558de9.bindPopup(popup_76ad4bb0fba6417081593987223e6291)
+        ;
+
+        
+    
+    
+            var marker_51b8014d5ad84e32ac000cce0728bd47 = L.marker(
+                [57.821004, 28.320674],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_c7583e94cb884159912cab160e31aa30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51b8014d5ad84e32ac000cce0728bd47.setIcon(icon_c7583e94cb884159912cab160e31aa30);
+        
+    
+        var popup_03ed0c27818f4810b9b03795aa1d1547 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcbe93fbbf96479e800e02d9d1ad949a = $(`<div id="html_dcbe93fbbf96479e800e02d9d1ad949a" style="width: 100.0%; height: 100.0%;">Псковская область. город Псков, улица Максима Горького, 6 а</div>`)[0];
+            popup_03ed0c27818f4810b9b03795aa1d1547.setContent(html_dcbe93fbbf96479e800e02d9d1ad949a);
+        
+
+        marker_51b8014d5ad84e32ac000cce0728bd47.bindPopup(popup_03ed0c27818f4810b9b03795aa1d1547)
+        ;
+
+        
+    
+    
+            var poly_line_2a69e527b37a4d47ac97e2a7d172224f = L.polyline(
+                [[57.821004, 28.320674], [57.82095, 28.32097]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_c2a52476eae04656beaf44b2a0a0eed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe5669d0a8504233991b312205027e4f = $(`<div id="html_fe5669d0a8504233991b312205027e4f" style="width: 100.0%; height: 100.0%;">19</div>`)[0];
+            popup_c2a52476eae04656beaf44b2a0a0eed0.setContent(html_fe5669d0a8504233991b312205027e4f);
+        
+
+        poly_line_2a69e527b37a4d47ac97e2a7d172224f.bindPopup(popup_c2a52476eae04656beaf44b2a0a0eed0)
+        ;
+
+        
+    
+    
+            var marker_5682182a0f554b43824fa2d71b72946d = L.marker(
+                [59.51461, 34.17876],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_bcca92dc469a48ccaaeaf8365f5b7ce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5682182a0f554b43824fa2d71b72946d.setIcon(icon_bcca92dc469a48ccaaeaf8365f5b7ce5);
+        
+    
+        var popup_2ccc689b43a94c1298a0644835820d5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f078ebf3c30455a9fe8065279d53c28 = $(`<div id="html_7f078ebf3c30455a9fe8065279d53c28" style="width: 100.0%; height: 100.0%;">Заводская улица 16, Бокситогорский район, Россия, 187600</div>`)[0];
+            popup_2ccc689b43a94c1298a0644835820d5b.setContent(html_7f078ebf3c30455a9fe8065279d53c28);
+        
+
+        marker_5682182a0f554b43824fa2d71b72946d.bindPopup(popup_2ccc689b43a94c1298a0644835820d5b)
+        ;
+
+        
+    
+    
+            var marker_6f31c19bd19a4a859f4e3ac411c30a2e = L.marker(
+                [59.514465, 34.178956],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_e4359d471230467bb535657b4606476b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f31c19bd19a4a859f4e3ac411c30a2e.setIcon(icon_e4359d471230467bb535657b4606476b);
+        
+    
+        var popup_19770e121389446c9b982893b9644c1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec8b6e1f104f464ca77840ca146d9721 = $(`<div id="html_ec8b6e1f104f464ca77840ca146d9721" style="width: 100.0%; height: 100.0%;">Бокситогорский район, город Пикалево, улица Заводская, 16</div>`)[0];
+            popup_19770e121389446c9b982893b9644c1e.setContent(html_ec8b6e1f104f464ca77840ca146d9721);
+        
+
+        marker_6f31c19bd19a4a859f4e3ac411c30a2e.bindPopup(popup_19770e121389446c9b982893b9644c1e)
+        ;
+
+        
+    
+    
+            var poly_line_d91459fd0c474622867a355d782b3f6d = L.polyline(
+                [[59.514465, 34.178956], [59.51461, 34.17876]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_7676bf62666d4527af1b40a71f4bf4b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d13fbe697b14006ac569fcc54fcb94d = $(`<div id="html_2d13fbe697b14006ac569fcc54fcb94d" style="width: 100.0%; height: 100.0%;">20</div>`)[0];
+            popup_7676bf62666d4527af1b40a71f4bf4b8.setContent(html_2d13fbe697b14006ac569fcc54fcb94d);
+        
+
+        poly_line_d91459fd0c474622867a355d782b3f6d.bindPopup(popup_7676bf62666d4527af1b40a71f4bf4b8)
+        ;
+
+        
+    
+    
+            var marker_96197a15481b43c79717c90e7cce0946 = L.marker(
+                [59.99754, 30.3062],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_b3c9fa4d93c84005841252948cd1d415 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96197a15481b43c79717c90e7cce0946.setIcon(icon_b3c9fa4d93c84005841252948cd1d415);
+        
+    
+        var popup_ea4f2dbd231647ea8f3a170cd0be1759 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9754d194bca469db4cb530c7a800400 = $(`<div id="html_c9754d194bca469db4cb530c7a800400" style="width: 100.0%; height: 100.0%;">Коломяжский проспект 14, Санкт-Петербург, Россия, 197343</div>`)[0];
+            popup_ea4f2dbd231647ea8f3a170cd0be1759.setContent(html_c9754d194bca469db4cb530c7a800400);
+        
+
+        marker_96197a15481b43c79717c90e7cce0946.bindPopup(popup_ea4f2dbd231647ea8f3a170cd0be1759)
+        ;
+
+        
+    
+    
+            var marker_32f3521eb3ad40d89cb473420790f133 = L.marker(
+                [60.001109, 30.299734],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_c212d0ad763c484ab6f218e0b8d24a7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_32f3521eb3ad40d89cb473420790f133.setIcon(icon_c212d0ad763c484ab6f218e0b8d24a7a);
+        
+    
+        var popup_2b60604213004a7791bb9d798fae9da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b197cc42e3c4426a7d832a1676df24d = $(`<div id="html_3b197cc42e3c4426a7d832a1676df24d" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Приморский р-н, Коломяжский пр., д. 15/2</div>`)[0];
+            popup_2b60604213004a7791bb9d798fae9da0.setContent(html_3b197cc42e3c4426a7d832a1676df24d);
+        
+
+        marker_32f3521eb3ad40d89cb473420790f133.bindPopup(popup_2b60604213004a7791bb9d798fae9da0)
+        ;
+
+        
+    
+    
+            var poly_line_394965a954af4900b6d6105a0645ecd1 = L.polyline(
+                [[60.001109, 30.299734], [59.99754, 30.3062]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_3daa816fe32d4e74918df13a2890fa9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6250057818f84afa8aa5829ee110d6d9 = $(`<div id="html_6250057818f84afa8aa5829ee110d6d9" style="width: 100.0%; height: 100.0%;">537</div>`)[0];
+            popup_3daa816fe32d4e74918df13a2890fa9f.setContent(html_6250057818f84afa8aa5829ee110d6d9);
+        
+
+        poly_line_394965a954af4900b6d6105a0645ecd1.bindPopup(popup_3daa816fe32d4e74918df13a2890fa9f)
+        ;
+
+        
+    
+    
+            var marker_2811bd941a43404aa2c1b84afd8e8ab0 = L.marker(
+                [60.90979, 34.17482],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_8b130c3c717e422bbd5ad42756d20706 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2811bd941a43404aa2c1b84afd8e8ab0.setIcon(icon_8b130c3c717e422bbd5ad42756d20706);
+        
+    
+        var popup_2b559096550d45dab242041d44e1ec6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1ccbfcce0384eb88c2d783916a307dd = $(`<div id="html_e1ccbfcce0384eb88c2d783916a307dd" style="width: 100.0%; height: 100.0%;">Свирская улица 48, Подпорожский район, Россия, 187780</div>`)[0];
+            popup_2b559096550d45dab242041d44e1ec6b.setContent(html_e1ccbfcce0384eb88c2d783916a307dd);
+        
+
+        marker_2811bd941a43404aa2c1b84afd8e8ab0.bindPopup(popup_2b559096550d45dab242041d44e1ec6b)
+        ;
+
+        
+    
+    
+            var marker_823384cdee774c9b936223a39a7ccb89 = L.marker(
+                [60.911559, 34.165679],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_ffd2890699bd4298840238e291596939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_823384cdee774c9b936223a39a7ccb89.setIcon(icon_ffd2890699bd4298840238e291596939);
+        
+    
+        var popup_b53160bef8c14497ae048884221511ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df54fa5192af4f4e90f654c60f7c614c = $(`<div id="html_df54fa5192af4f4e90f654c60f7c614c" style="width: 100.0%; height: 100.0%;">Ленинградская область, Подпорожский район, город Подпорожье, ул.Свирская, 48</div>`)[0];
+            popup_b53160bef8c14497ae048884221511ad.setContent(html_df54fa5192af4f4e90f654c60f7c614c);
+        
+
+        marker_823384cdee774c9b936223a39a7ccb89.bindPopup(popup_b53160bef8c14497ae048884221511ad)
+        ;
+
+        
+    
+    
+            var poly_line_0fae2da0448243bf8e4bc2428c85dccc = L.polyline(
+                [[60.911559, 34.165679], [60.90979, 34.17482]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_6372424ff2474bf1bea1abca6f7dcb55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a37c04f93d241648ff9ab85282f04cd = $(`<div id="html_9a37c04f93d241648ff9ab85282f04cd" style="width: 100.0%; height: 100.0%;">534</div>`)[0];
+            popup_6372424ff2474bf1bea1abca6f7dcb55.setContent(html_9a37c04f93d241648ff9ab85282f04cd);
+        
+
+        poly_line_0fae2da0448243bf8e4bc2428c85dccc.bindPopup(popup_6372424ff2474bf1bea1abca6f7dcb55)
+        ;
+
+        
+    
+    
+            var marker_3019b1277f4f4e51956af4fda04bec58 = L.marker(
+                [59.85122, 30.21884],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_136e29ff189b4f21b41325df0e5c29e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3019b1277f4f4e51956af4fda04bec58.setIcon(icon_136e29ff189b4f21b41325df0e5c29e5);
+        
+    
+        var popup_293ed97ae0b5478b9c69055b4cb3738e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a33454aebf3a44f9b5fcc01b613eaa76 = $(`<div id="html_a33454aebf3a44f9b5fcc01b613eaa76" style="width: 100.0%; height: 100.0%;">проспект Маршала Жукова 41, Санкт-Петербург, Россия, 198332</div>`)[0];
+            popup_293ed97ae0b5478b9c69055b4cb3738e.setContent(html_a33454aebf3a44f9b5fcc01b613eaa76);
+        
+
+        marker_3019b1277f4f4e51956af4fda04bec58.bindPopup(popup_293ed97ae0b5478b9c69055b4cb3738e)
+        ;
+
+        
+    
+    
+            var marker_19c3facb6b84470ba26aba72bdfae272 = L.marker(
+                [59.852972, 30.213909],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_2bc811cdc02b4b63a62110dd34dd828a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19c3facb6b84470ba26aba72bdfae272.setIcon(icon_2bc811cdc02b4b63a62110dd34dd828a);
+        
+    
+        var popup_25bf3e9ebcf64933bcfb6009aacb5a31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76e7749b00ef4947ae7e26adeebbdb03 = $(`<div id="html_76e7749b00ef4947ae7e26adeebbdb03" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Красносельский р-н, пр. Маршала Жукова, 41</div>`)[0];
+            popup_25bf3e9ebcf64933bcfb6009aacb5a31.setContent(html_76e7749b00ef4947ae7e26adeebbdb03);
+        
+
+        marker_19c3facb6b84470ba26aba72bdfae272.bindPopup(popup_25bf3e9ebcf64933bcfb6009aacb5a31)
+        ;
+
+        
+    
+    
+            var poly_line_a35149c8929e4e68bd6bd2f69c1f137b = L.polyline(
+                [[59.852972, 30.213909], [59.85122, 30.21884]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_6a70465359054da3bc572aac5cea0715 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd8c7bed15f4ce790faede56e09443c = $(`<div id="html_afd8c7bed15f4ce790faede56e09443c" style="width: 100.0%; height: 100.0%;">338</div>`)[0];
+            popup_6a70465359054da3bc572aac5cea0715.setContent(html_afd8c7bed15f4ce790faede56e09443c);
+        
+
+        poly_line_a35149c8929e4e68bd6bd2f69c1f137b.bindPopup(popup_6a70465359054da3bc572aac5cea0715)
+        ;
+
+        
+    
+    
+            var marker_046970253a6c42068cd9f9be0f116494 = L.marker(
+                [60.04702, 30.44669],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_1c4eedf5bd96411e8d615e9a1984371b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_046970253a6c42068cd9f9be0f116494.setIcon(icon_1c4eedf5bd96411e8d615e9a1984371b);
+        
+    
+        var popup_0e1978820a72426c886c728c4d415cc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3618798639a1425fa8d50ae3e2a1a5d9 = $(`<div id="html_3618798639a1425fa8d50ae3e2a1a5d9" style="width: 100.0%; height: 100.0%;">Вокзальная улица 2а, Всеволожский район, Россия, 188662</div>`)[0];
+            popup_0e1978820a72426c886c728c4d415cc0.setContent(html_3618798639a1425fa8d50ae3e2a1a5d9);
+        
+
+        marker_046970253a6c42068cd9f9be0f116494.bindPopup(popup_0e1978820a72426c886c728c4d415cc0)
+        ;
+
+        
+    
+    
+            var marker_b0310304854b45239efd239fecdfd203 = L.marker(
+                [60.051162, 30.437739],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_bc6e4d250eac4140a9584c31436b2d4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0310304854b45239efd239fecdfd203.setIcon(icon_bc6e4d250eac4140a9584c31436b2d4c);
+        
+    
+        var popup_6a868440331748e484c5d7de633ddac3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6a7fd2e0cc84090ac9cde81ff41d190 = $(`<div id="html_e6a7fd2e0cc84090ac9cde81ff41d190" style="width: 100.0%; height: 100.0%;">Ленинградская область, п.Мурино, Привокзальная  пл., уч. 2 а</div>`)[0];
+            popup_6a868440331748e484c5d7de633ddac3.setContent(html_e6a7fd2e0cc84090ac9cde81ff41d190);
+        
+
+        marker_b0310304854b45239efd239fecdfd203.bindPopup(popup_6a868440331748e484c5d7de633ddac3)
+        ;
+
+        
+    
+    
+            var poly_line_43289a4adda04cef898e8e487575789a = L.polyline(
+                [[60.051162, 30.437739], [60.04702, 30.44669]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_0a75e1c43571482eb7403a5dcc9b5b22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c72536b8704c4955b332c3172005e7e1 = $(`<div id="html_c72536b8704c4955b332c3172005e7e1" style="width: 100.0%; height: 100.0%;">679</div>`)[0];
+            popup_0a75e1c43571482eb7403a5dcc9b5b22.setContent(html_c72536b8704c4955b332c3172005e7e1);
+        
+
+        poly_line_43289a4adda04cef898e8e487575789a.bindPopup(popup_0a75e1c43571482eb7403a5dcc9b5b22)
+        ;
+
+        
+    
+    
+            var marker_a5165acdb5534749b5ae7ab957034790 = L.marker(
+                [59.82628, 30.08132],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_087b021e7c6441d2b87e33a02bca56c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5165acdb5534749b5ae7ab957034790.setIcon(icon_087b021e7c6441d2b87e33a02bca56c7);
+        
+    
+        var popup_770f7259225e4197b790fbd15c28a289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ada169e4df64f5bbb8f3f01d9f5c657 = $(`<div id="html_7ada169e4df64f5bbb8f3f01d9f5c657" style="width: 100.0%; height: 100.0%;">проспект Ленина 39, Санкт-Петербург, Россия, 198218</div>`)[0];
+            popup_770f7259225e4197b790fbd15c28a289.setContent(html_7ada169e4df64f5bbb8f3f01d9f5c657);
+        
+
+        marker_a5165acdb5534749b5ae7ab957034790.bindPopup(popup_770f7259225e4197b790fbd15c28a289)
+        ;
+
+        
+    
+    
+            var marker_8791df1bd1d94a6d818caf0850b16119 = L.marker(
+                [59.729214, 30.083336],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_911aefd6d2da4e30942c65eab370efbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8791df1bd1d94a6d818caf0850b16119.setIcon(icon_911aefd6d2da4e30942c65eab370efbc);
+        
+    
+        var popup_db329170bd5c4a15b312e82aac48e2c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0958fcb8c6e4b6b926b75a78855f185 = $(`<div id="html_c0958fcb8c6e4b6b926b75a78855f185" style="width: 100.0%; height: 100.0%;">г. Санкт-Петербург, Красносельский р-н, пр. Ленина, 85</div>`)[0];
+            popup_db329170bd5c4a15b312e82aac48e2c6.setContent(html_c0958fcb8c6e4b6b926b75a78855f185);
+        
+
+        marker_8791df1bd1d94a6d818caf0850b16119.bindPopup(popup_db329170bd5c4a15b312e82aac48e2c6)
+        ;
+
+        
+    
+    
+            var poly_line_75446ea425394c69aedb0eb356601a44 = L.polyline(
+                [[59.729214, 30.083336], [59.82628, 30.08132]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_d4c2cf97583e47ffa2fb5b52182771e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37457a79aaea48f08dd1c657907a8386 = $(`<div id="html_37457a79aaea48f08dd1c657907a8386" style="width: 100.0%; height: 100.0%;">10815</div>`)[0];
+            popup_d4c2cf97583e47ffa2fb5b52182771e6.setContent(html_37457a79aaea48f08dd1c657907a8386);
+        
+
+        poly_line_75446ea425394c69aedb0eb356601a44.bindPopup(popup_d4c2cf97583e47ffa2fb5b52182771e6)
+        ;
+
+        
+    
+    
+            var marker_f034afbd3c904e43bd1dda466b5c52cf = L.marker(
+                [59.88217, 29.89007],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_c64044da34e94b369f0bb44818e44d3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f034afbd3c904e43bd1dda466b5c52cf.setIcon(icon_c64044da34e94b369f0bb44818e44d3b);
+        
+    
+        var popup_791607efc39f47d88754cf9349aa3f5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcc01cdd34284dec8dac967cb689c736 = $(`<div id="html_fcc01cdd34284dec8dac967cb689c736" style="width: 100.0%; height: 100.0%;">Санкт-Петербургский проспект 60, Санкт-Петербург, Россия, 198516</div>`)[0];
+            popup_791607efc39f47d88754cf9349aa3f5a.setContent(html_fcc01cdd34284dec8dac967cb689c736);
+        
+
+        marker_f034afbd3c904e43bd1dda466b5c52cf.bindPopup(popup_791607efc39f47d88754cf9349aa3f5a)
+        ;
+
+        
+    
+    
+            var marker_5c608ddca3e64d87a6204c15511ce89c = L.marker(
+                [59.881737, 29.894406],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_5ca64fa708354d26a24055870e6b9bd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c608ddca3e64d87a6204c15511ce89c.setIcon(icon_5ca64fa708354d26a24055870e6b9bd3);
+        
+    
+        var popup_a9f2329816f246b09bcdc23a284988ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bb803deb8aa4d969bff48b6013d0cfd = $(`<div id="html_9bb803deb8aa4d969bff48b6013d0cfd" style="width: 100.0%; height: 100.0%;">Петергоф, Санкт-Петербургский пр., 60</div>`)[0];
+            popup_a9f2329816f246b09bcdc23a284988ca.setContent(html_9bb803deb8aa4d969bff48b6013d0cfd);
+        
+
+        marker_5c608ddca3e64d87a6204c15511ce89c.bindPopup(popup_a9f2329816f246b09bcdc23a284988ca)
+        ;
+
+        
+    
+    
+            var poly_line_7e9ace10f13040788296a6882371041f = L.polyline(
+                [[59.881737, 29.894406], [59.88217, 29.89007]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_6aa9ca27295b42b68b5a3d3c60879150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2bd26e438fc4cb28290e8fe23a81105 = $(`<div id="html_b2bd26e438fc4cb28290e8fe23a81105" style="width: 100.0%; height: 100.0%;">248</div>`)[0];
+            popup_6aa9ca27295b42b68b5a3d3c60879150.setContent(html_b2bd26e438fc4cb28290e8fe23a81105);
+        
+
+        poly_line_7e9ace10f13040788296a6882371041f.bindPopup(popup_6aa9ca27295b42b68b5a3d3c60879150)
+        ;
+
+        
+    
+    
+            var marker_64fed86eabf446f2a526d899c1d3dd84 = L.marker(
+                [61.03912, 30.14671],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_c8e6c97f6a5845089b1af0a82d12f793 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_64fed86eabf446f2a526d899c1d3dd84.setIcon(icon_c8e6c97f6a5845089b1af0a82d12f793);
+        
+    
+        var popup_258ddbc7939a4cb583ba3394de782829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d7e7ccea8634583994dd6a713b56df7 = $(`<div id="html_0d7e7ccea8634583994dd6a713b56df7" style="width: 100.0%; height: 100.0%;">улица Калинина 51, Приозерский район, Россия, 188760</div>`)[0];
+            popup_258ddbc7939a4cb583ba3394de782829.setContent(html_0d7e7ccea8634583994dd6a713b56df7);
+        
+
+        marker_64fed86eabf446f2a526d899c1d3dd84.bindPopup(popup_258ddbc7939a4cb583ba3394de782829)
+        ;
+
+        
+    
+    
+            var marker_c616cdae57bd49eebb95316bac20ea87 = L.marker(
+                [61.038907, 30.147003],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_018d083912814e96b9c885106d92741c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c616cdae57bd49eebb95316bac20ea87.setIcon(icon_018d083912814e96b9c885106d92741c);
+        
+    
+        var popup_f03cac762129446392d36634c46d2d9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fe53100c280400aaa5e54d8cbd32419 = $(`<div id="html_3fe53100c280400aaa5e54d8cbd32419" style="width: 100.0%; height: 100.0%;">Ленинградская область, Приозерский район, город Приозерск, улица Калинина , 51</div>`)[0];
+            popup_f03cac762129446392d36634c46d2d9d.setContent(html_3fe53100c280400aaa5e54d8cbd32419);
+        
+
+        marker_c616cdae57bd49eebb95316bac20ea87.bindPopup(popup_f03cac762129446392d36634c46d2d9d)
+        ;
+
+        
+    
+    
+            var poly_line_f21fe9f72f8744a5b2fabfc7740c5f33 = L.polyline(
+                [[61.038907, 30.147003], [61.03912, 30.14671]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_74b7ac2fc55a41078e655c8d8bb4966c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a933a6833ca404ca8e5c82b785027b7 = $(`<div id="html_6a933a6833ca404ca8e5c82b785027b7" style="width: 100.0%; height: 100.0%;">29</div>`)[0];
+            popup_74b7ac2fc55a41078e655c8d8bb4966c.setContent(html_6a933a6833ca404ca8e5c82b785027b7);
+        
+
+        poly_line_f21fe9f72f8744a5b2fabfc7740c5f33.bindPopup(popup_74b7ac2fc55a41078e655c8d8bb4966c)
+        ;
+
+        
+    
+    
+            var marker_98d1f7e454df4a468208f186b7870373 = L.marker(
+                [60.05236, 30.43861],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_529d68a1ec30440d931a47766b32aa5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98d1f7e454df4a468208f186b7870373.setIcon(icon_529d68a1ec30440d931a47766b32aa5d);
+        
+    
+        var popup_37f6b76a7f9d4840835af16d9a54ddfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19961aa4494848aab4029b4e8ab9116a = $(`<div id="html_19961aa4494848aab4029b4e8ab9116a" style="width: 100.0%; height: 100.0%;">проспект Авиаторов Балтики 7, Всеволожский район, Россия, 188662</div>`)[0];
+            popup_37f6b76a7f9d4840835af16d9a54ddfa.setContent(html_19961aa4494848aab4029b4e8ab9116a);
+        
+
+        marker_98d1f7e454df4a468208f186b7870373.bindPopup(popup_37f6b76a7f9d4840835af16d9a54ddfa)
+        ;
+
+        
+    
+    
+            var marker_07c6ccd77a684c4bbc66393187df0b03 = L.marker(
+                [60.052322, 30.438587],
+                {}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+            var icon_7a254c6a67874252af2a3baad26465c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07c6ccd77a684c4bbc66393187df0b03.setIcon(icon_7a254c6a67874252af2a3baad26465c9);
+        
+    
+        var popup_27975cbbcda14eca9ef51f5fad32a966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8721e4936e4b49dea4a6e3f2401faf23 = $(`<div id="html_8721e4936e4b49dea4a6e3f2401faf23" style="width: 100.0%; height: 100.0%;">Ленинградская область, п.Мурино, пр-т Авиаторов Балтики, д.7</div>`)[0];
+            popup_27975cbbcda14eca9ef51f5fad32a966.setContent(html_8721e4936e4b49dea4a6e3f2401faf23);
+        
+
+        marker_07c6ccd77a684c4bbc66393187df0b03.bindPopup(popup_27975cbbcda14eca9ef51f5fad32a966)
+        ;
+
+        
+    
+    
+            var poly_line_e9284cf22158422ca7ce3799504d65a3 = L.polyline(
+                [[60.052322, 30.438587], [60.05236, 30.43861]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_54c12fe8452541ee81d86f43113edc8c);
+        
+    
+        var popup_70b4e64e7f1446feb8349d71b1887ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceb72592f3334a3da3574a5d380f8755 = $(`<div id="html_ceb72592f3334a3da3574a5d380f8755" style="width: 100.0%; height: 100.0%;">4</div>`)[0];
+            popup_70b4e64e7f1446feb8349d71b1887ad9.setContent(html_ceb72592f3334a3da3574a5d380f8755);
+        
+
+        poly_line_e9284cf22158422ca7ce3799504d65a3.bindPopup(popup_70b4e64e7f1446feb8349d71b1887ad9)
+        ;
+
+        
+    
+</script>
